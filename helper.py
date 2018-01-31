@@ -46,18 +46,15 @@ class SpellChecker():
 class HSHelper:
     """some convenience methods and wraps cardDB"""
 
-    def __init__(self, cardDB, constants):
+    def __init__(self, cardDB):
         self.cardDB = cardDB
-        self.constants = constants
 
-        allNames = itertools.chain(cardDB.cardNames(),
-                self.constants.specialNames,
-                self.constants.alternativeNames)
+        allNames = cardDB.cardNames()
         self.spellChecker = SpellChecker(allNames)
 
-        self.infoTempl = formatter.loadInfoTempl(self.constants.specialNames,
-            self.constants.alternativeNames,
-            self.cardDB.tokens)
+       # self.infoTempl = formatter.loadInfoTempl(self.constants.specialNames,
+        #    self.constants.alternativeNames,
+         #   self.cardDB.tokens)
 
     def getInfoText(self, author):
         """fill info request answer template"""
@@ -65,13 +62,13 @@ class HSHelper:
 
     def parseText(self, text):
         """returns found cards and answer text"""
+        print(text)
         text = HSHelper.removeQuotes(text)
         cards = self.getCards(text)
         answer = ''
 
         if cards:
             log.debug("found cards: %s", cards)
-            cards = self.constants.replaceSpecial(cards)
             answer = formatter.createAnswer(self.cardDB, cards)
 
         return cards, answer
@@ -117,8 +114,6 @@ class HSHelper:
                             log.info("spelling fixed: %s -> %s",
                                 cleanCard, checkedCard)
 
-                        # is alternative name?
-                        checkedCard = self.constants.translateAlt(checkedCard)
                         # add cardname
                         if checkedCard not in cards:
                             cards.append(checkedCard)
@@ -127,7 +122,7 @@ class HSHelper:
 
                 card = ''
                 open_bracket = False
-                if len(cards) >= self.constants.CARD_LIMIT:
+                if len(cards) >= 7:#self.constants.CARD_LIMIT:
                     break
 
             if len(card) > 30:

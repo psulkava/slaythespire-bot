@@ -15,24 +15,17 @@ class CardDB:
     """Wrapper around a PRAW reddit instance."""
 
     def __init__(self, *,
-            constants,
-            cardJSON='data/cards.json',
-            tokenJSON='data/tokens.json',
+            itemJSON='data/items.json',
             tempJSON='data/tempinfo.json',
             tempJSONUrl=None):
         """Initialize an instance of CardDB.
 
-        :param cardJSON: file containing cards
-        :param tokenJSON: file containing tokens
+        :param itemJSON: file containing items
         :param tempJSON: optional file containing more cards
         """
-        self.constants = constants
-        self.cardJSON = cardJSON
-        self.tokenJSON = tokenJSON
+        self.itemJSON = itemJSON
         self.tempJSON = tempJSON
         self.tempJSONUrl = tempJSONUrl
-
-        self.tokens = []
 
         self.__db = {}
         self.__tempDate = 0
@@ -44,22 +37,18 @@ class CardDB:
     def __load(self):
 
         # load cards
-        with open(self.cardJSON, 'r', encoding='utf8') as file:
+        with open(self.itemJSON, 'r', encoding='utf8') as file:
             cards = json.load(file)
-        with open(self.tokenJSON, 'r', encoding='utf8') as file:
-            tokens = json.load(file)
 
         # json to db full of text
-        for name, card in itertools.chain(cards.items(), tokens.items()):
+        for name, card in cards.items():
             clean = CardDB.cleanName(name)
             if clean in self.__db:
                 log.error("load() duplicate name, already in the db: %s",
                         clean)
                 raise Exception('duplicate card')
 
-            self.__db[clean] = formatter.createCardText(card, self.constants)
-
-        self.tokens = [CardDB.cleanName(name) for name in tokens.keys()]
+            self.__db[clean] = formatter.createCardText(card)
 
         # finally load temp file
         self.refreshTemp()

@@ -4,7 +4,6 @@ import logging as log
 import time
 
 from cardDB import CardDB
-from constants import Constants
 from helper import HSHelper
 from praww import RedditBot
 import commentDB
@@ -18,7 +17,8 @@ PM_RATE_LIMIT = 30
 
 def answerComment(r, comment, answeredDB, helper):
     """read and answer a comment"""
-
+    print(comment)
+    log.info(comment)
     cards, answer = helper.parseText(comment.body)
 
     if cards and answer:
@@ -42,7 +42,7 @@ def answerComment(r, comment, answeredDB, helper):
 
 def answerMention(r, comment, answeredDB, helper):
     """read and answer a mention"""
-
+    
     cards, answer = helper.parseText(comment.body)
 
     if cards and answer:
@@ -179,17 +179,15 @@ def cleanPMUserCache(cache):
 
 
 def main():
-    log.debug('main() hearthscan-bot starting')
+    log.debug('main() slaythespire-bot starting')
 
-    # load constant values
-    constants = Constants()
     # init answered comments sqlite DB
     answeredDB = commentDB.DB()
     # load card DB
     url = 'https://raw.githubusercontent.com/psulkava/slaythespire-bot/master/data/tempinfo.json'
-    cardDB = CardDB(constants=constants, tempJSONUrl=url)
+    cardDB = CardDB(tempJSONUrl=url)
     # init hs helper for hearthstone stuff
-    helper = HSHelper(cardDB, constants)
+    helper = HSHelper(cardDB)
     # pm spam filter cache
     pmUserCache = {}
 

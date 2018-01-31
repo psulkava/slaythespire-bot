@@ -10,11 +10,12 @@ atk_dur_template = " {atk}/{dur}"
 subtype_template = " {subType}"
 desc_template = " - {desc}"
 extDesc_template = "[{text}]  \n"
-card_template = ("* **[{name}]({cdn})** {class} {type} {rarity} {set} {std}"
-                    "^[HP](http://www.hearthpwn.com/cards/{hpwn}), "
-                    "^[HH](http://www.hearthhead.com/cards/{head}), "
-                    "^[Wiki](http://hearthstone.gamepedia.com/{wiki})  \n"
-                "{cost} Mana{atk_dur}{subtype}{desc}  \n{extDesc}")
+#card_template = ("* **[{name}]({cdn})** {class} {type} {rarity} {set} {std}"
+#                    "^[HP](http://www.hearthpwn.com/cards/{hpwn}), "
+#                    "^[HH](http://www.hearthhead.com/cards/{head}), "
+#                    "^[Wiki](http://hearthstone.gamepedia.com/{wiki})  \n"
+#                "{cost} Mana{atk_dur}{subtype}{desc}  \n{extDesc}")
+card_template = ("{name} {rarity} {type} {description}")
 signature = ("\n^(Call/)^[PM](https://www.reddit.com/message/compose/?to={bot})"
             " ^( me with up to 7 [[cardname]]. )"
             "^[About.](https://www.reddit.com/message/compose/"
@@ -25,46 +26,15 @@ duplicate_header_templ = ("You've posted a comment reply in [{title}]({url}) "
                             "containing cards I already explained. "
                             "To reduce duplicates, your cards are here:\n\n")
 
-# Standard legal icon
-# 2017 elephant because mammoth
-STD_ICON = '\U0001F418 '
-NEXT_STD_ICON = STD_ICON
-
-
-def createCardText(card, constants):
+def createCardText(card):
     """ formats a single card to text """
-    cardSet = card['set']
-    cardSetData = constants.sets[constants.setIds[cardSet]]
-    cardSetCode = cardSetData.get('code')
-    atk_dur = ''
-    if card['atk'] is not None and card['hp'] is not None:
-        atk_dur = atk_dur_template.format(atk=card['atk'], dur=card['hp'])
-
-    cardDesc = card['desc']
-    extDesc = card.get('extDesc', '')
-    if extDesc:
-        extDesc = ''.join(extDesc_template.format(text=desc) for desc in extDesc)
 
     local_card = {
-        'name' : card['name'],
-        'type' : card['type'],
-        'class' : card['class'],
-        'rarity' : card['rarity'],
-        'set' : cardSetCode if cardSetCode else cardSet,
-        'cost' : card['cost'],
-        'desc' : desc_template.format(desc=cardDesc) if cardDesc else '',
-        'extDesc': extDesc,
-        'hpwn' : card['hpwn'],
-        'head' : card['head'],
-        'wiki' : urllib.parse.quote(card['name'].replace(' ', '_')),
-        'cdn' : card['cdn'],
-        'atk_dur' : atk_dur,
-
-        'subtype' : subtype_template.format(subType=card['subType']) \
-                if card['subType'] else '',
-
-        'std' : STD_ICON if cardSetData.get('std') else \
-                NEXT_STD_ICON if cardSetData.get('unreleased') else '~ '
+        'name' : card['Name'],
+        'rarity' : card['Rarity'],
+        'type' : card['Type'],
+        'energy' : card['Energy'],
+        'description' : card['Description'],
     }
 
     return card_template.format(**local_card)

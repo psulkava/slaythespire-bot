@@ -23,6 +23,7 @@ def fixText(text):
         text = re.sub(r"[ ]{2,}", ' ', text)
         text = text.replace('\xa0', ' ')
         text = text.replace('[[Shiv|S]][[shiv|hiv]]', 'Shiv')
+        text = text.replace('[[Shiv|Shivs]]', 'Shivs')
         text = text.replace('[[Poison|P]][[poison|oison]]', 'Poison')
         text = text.replace('[[Weak|W]][[weak|eak]]', 'Weak')
         text = text.replace('[[Vulnerable|V]][[vulnerable|ulnerable]]', 'Vulnerable')
@@ -58,6 +59,7 @@ def main():
     for card in cards_info:
         card_info = card.split('\n|')
         silent_cards[card_info[1]] = {
+                'Name' : card_info[1],
                 'Rarity' : card_info[3],
                 'Type' : card_info[4],
                 'Energy' : card_info[5],
@@ -72,6 +74,7 @@ def main():
     for card in cards_info:
         card_info = card.split('\n|')
         ironclad_cards[card_info[1]] = {
+                'Name' : card_info[1],
                 'Rarity' : card_info[3],
                 'Type' : card_info[4],
                 'Energy' : card_info[5],
@@ -88,6 +91,7 @@ def main():
         card_info = card.split('\n|')
         #print(card_info)
         neutral_cards[card_info[1]] = {
+                'Name' : card_info[1],
                 'Rarity' : card_info[3],
                 'Type' : card_info[4],
                 'Energy' : card_info[5],
@@ -99,8 +103,11 @@ def main():
     for card in cards_info:
         card_info = card.split('\n|')
         curse_cards[card_info[1]] = {
+                'Name' : card_info[1],
                 'Type' : card_info[3],
-                'Description' : card_info[4].replace('\n', '')
+                'Description' : card_info[4].replace('\n', ''),
+                'Rarity': '',
+                'Energy': ''
         }
     status_cards = {}
     cards_info = groups[2].split('|-')
@@ -108,8 +115,11 @@ def main():
     for card in cards_info:
         card_info = card.split('\n|')
         status_cards[card_info[1]] = {
+                'Name' : card_info[1],
                 'Type' : card_info[3],
-                'Description' : card_info[4].replace('\n', '')
+                'Description' : card_info[4].replace('\n', ''),
+                'Rarity': '',
+                'Energy': ''
         }
 
     r = requests.get("https://slay-the-spire.wikia.com/api.php?action=query&format=json&prop=revisions&rvprop=content&pageids=104")
@@ -120,8 +130,11 @@ def main():
     for relic in relics_info[1:]:
         relic_info = relic.split('\n|')
         relics[relic_info[2]] = {
+                'Name' : card_info[2],
                 'Rarity' : relic_info[3],
-                'Description' : relic_info[4].replace('\n', '')
+                'Description' : relic_info[4].replace('\n', ''),
+                'Type' : 'Relic',
+                'Energy' : ''
         }
     
     all_items = silent_cards.copy()

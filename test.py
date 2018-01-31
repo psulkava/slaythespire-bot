@@ -16,9 +16,9 @@ from praw.config import Config
 import prawcore
 import requests
 
-import scrape
+import scrape2
 # I didn't know this before creating the test
-hsbot = __import__("hearthscan-bot")
+hsbot = __import__("slaythespire-bot")
 
 import commentDB
 import credentials
@@ -75,30 +75,6 @@ class TestScrape(unittest.TestCase):
         self.assertEqual(scrape.camelCase("HERO_POWER"), "Hero Power")
         self.assertEqual(scrape.camelCase(""), None)
         self.assertEqual(scrape.camelCase(None), None)
-
-    # @unittest.skipIf(SKIP_INTERNET_TESTS, "requires internet (and is slow)")
-    def test_hearthhead(self):
-        with requests.Session() as s:
-            self.assertEqual(scrape.getHearthHeadId('Quick Shot', 'Spell', s),
-                'quick-shot')
-            self.assertEqual(scrape.getHearthHeadId('Undercity Valiant',
-                'Minion', s), 'undercity-valiant')
-            self.assertEqual(scrape.getHearthHeadId('Gorehowl', 'Weapon', s),
-                'gorehowl')
-            self.assertEqual(scrape.getHearthHeadId('V-07-TR-0N',
-                'Minion', s), 'v-07-tr-0n')
-            self.assertEqual(scrape.getHearthHeadId("Al'Akir the Windlord",
-                'Minion', s), 'alakir-the-windlord')
-
-    @unittest.skipIf(SKIP_INTERNET_TESTS, "requires internet (and is slow)")
-    def test_Hearthpwn(self):
-        with requests.Session() as s:
-            self.assertEqual(scrape.getHearthpwnIdAndUrl('Quick Shot',
-                    'Blackrock Mountain', 'Spell', False, s),
-                    (14459, 'https://media-hearth.cursecdn.com/avatars/328/302/14459.png'))
-            self.assertEqual(scrape.getHearthpwnIdAndUrl('Upgrade!',
-                    'Classic', 'Spell', False, s),
-                    (638, 'https://media-hearth.cursecdn.com/avatars/330/899/638.png'))
 
     @unittest.skipIf(SKIP_INTERNET_TESTS, "requires internet (and is slow)")
     def test_full(self):
@@ -392,54 +368,17 @@ class TestCardDB(unittest.TestCase):
         }
 
         with TempJson(constantDict) as constJson, \
-                TempJson(cardDict) as cardJson, \
+                TempJson(cardDict) as itemJson, \
                 TempJson({}) as emptyJson:
 
             c = Constants(constJson)
 
-            db = CardDB(constants=c, cardJSON=cardJson, tokenJSON=emptyJson, tempJSON=emptyJson)
+            db = CardDB(itemJSON=itemJson, tempJSON=emptyJson)
 
             self.assertEqual(db.cardNames(), ['quickshot'])
             self.assertEqual(db.tokens, [])
             self.assertTrue('quickshot' in db)
             self.assertFalse('slowshot' in db)
-            self.assertTrue('Quick Shot' in db['quickshot'])
-
-    def test_CardDBTokens(self):
-        cardDict = {
-            'Quick Shot': {
-                'type': 'Spell',
-                'hpwn': 14459,
-                'cdn': 'https://media-Hearth.cursecdn.com/14459.png',
-                'desc': 'Deal 3 damage. Draw a card.',
-                'hp': 1,
-                'class': 'Hunter',
-                'subType': 'Mech',
-                'set': 'Basic',
-                'rarity': 'Token',
-                'atk': 3,
-                'head': 'quick-shot',
-                'name': 'Quick Shot',
-                'cost': 2
-            }
-        }
-
-        constantDict = {
-            'sets' : { '01' : {'name' : 'Basic'} },
-            'specials' : { },
-            'alternative_names' : { }
-        }
-
-        with TempJson(constantDict) as constJson, \
-                TempJson(cardDict) as cardJson, \
-                TempJson({}) as emptyJson:
-
-            c = Constants(constJson)
-            db = CardDB(constants=c, cardJSON=emptyJson, tokenJSON=cardJson, tempJSON=emptyJson)
-
-            self.assertEqual(db.cardNames(), ['quickshot'])
-            self.assertEqual(db.tokens, ['quickshot'])
-            self.assertTrue('quickshot' in db)
             self.assertTrue('Quick Shot' in db['quickshot'])
 
     def test_RefreshCardDB(self):
@@ -468,16 +407,16 @@ class TestCardDB(unittest.TestCase):
         }
 
         with TempJson(constantDict) as constJson, \
-                TempJson(cardDict) as cardJson, \
+                TempJson(cardDict) as itemJson, \
                 TempJson({}) as emptyJson:
 
             c = Constants(constJson)
-            db = CardDB(constants=c, cardJSON=emptyJson, tokenJSON=emptyJson, tempJSON='notexisting.json')
+            db = CardDB(itemJSON=emptyJson, tempJSON='notexisting.json')
 
             self.assertEqual(db.cardNames(), [])
             self.assertFalse('quickshot' in db)
 
-            db.tempJSON = cardJson
+            db.tempJSON = itemJson
             db.refreshTemp()
 
             self.assertTrue('quickshot' in db)
@@ -518,11 +457,11 @@ class TestHelper(unittest.TestCase):
         }
 
         with TempJson(constantDict) as constJson, \
-                TempJson(cardDict) as cardJson, \
+                TempJson(cardDict) as itemJson, \
                 TempJson({}) as emptyJson:
 
             c = Constants(constJson)
-            db = CardDB(constants=c, cardJSON=cardJson, tokenJSON=emptyJson, tempJSON=emptyJson)
+            db = CardDB(itemJSON=itemJson, tempJSON=emptyJson)
             helper = HSHelper(db, c)
 
             # simple find
@@ -588,7 +527,7 @@ class TestHelper(unittest.TestCase):
                     f.write('{user}-{alts}-{tokens}-{special}')
 
                 c = Constants(constJson)
-                db = CardDB(constants=c, cardJSON=emptyJson, tokenJSON=emptyJson, tempJSON=emptyJson)
+                db = CardDB(itemJSON=emptyJson, tempJSON=emptyJson)
                 helper = HSHelper(db, c)
 
                 info = helper.getInfoText('user')
