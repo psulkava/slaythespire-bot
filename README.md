@@ -1,6 +1,7 @@
-# hearthscan-bot
-Explaining cards in [reddit.com/r/hearthstone](https://www.reddit.com/r/hearthstone/).  
-To see the bot in action send a PM containing `[[Ragnaros]]` to [/u/hearthscan-bot](https://www.reddit.com/message/compose/?to=hearthscan-bot)
+# slaythespire-bot
+WORK IN PROGRESS
+Modified version of [d-schmidt's hearthscan-bot](https://github.com/d-schmidt/hearthscan-bot)
+To see the bot in action send a PM containing `[[Strike]]` to [/u/slaythespire-bot](https://www.reddit.com/message/compose/?to=slaythespire-bot)
 
 ## Requirements
 - tested on Python 3.4+
