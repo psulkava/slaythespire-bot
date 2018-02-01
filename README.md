@@ -1,5 +1,5 @@
 # slaythespire-bot
-Modified version of [d-schmidt's hearthscan-bot](https://github.com/d-schmidt/hearthscan-bot) credit goes to him for the majority of the code
+Modified version of [d-schmidt's hearthscan-bot](https://github.com/d-schmidt/hearthscan-bot) credit goes to him for the majority of the code  
 To see the bot in action send a PM containing `[[Strike]]` to [/u/slaythespire-bot](https://www.reddit.com/message/compose/?to=slaythespire-bot)
 
 ## Requirements
