@@ -53,7 +53,6 @@ class CardDB:
         # finally load temp file
         self.refreshTemp()
 
-
     def refreshTemp(self):
         """Reload cards from tempJSON and overwrite existing."""
         if self.tempJSONUrl:
@@ -75,8 +74,7 @@ class CardDB:
                     self.__etag = res.headers.get("etag")
                     for name, card in res.json().items():
                         clean = CardDB.cleanName(name)
-                        self.__db[clean] = formatter.createCardText(card,
-                            self.constants)
+                        self.__db[clean] = formatter.createCardText(card)
 
                 if res.status_code == 304:
                     log.debug("refreshTemp() online: 304 no changes")
@@ -99,8 +97,8 @@ class CardDB:
             with open(self.tempJSON, 'r', encoding='utf8') as file:
                 for name, card in json.load(file).items():
                     clean = CardDB.cleanName(name)
-                    self.__db[clean] = formatter.createCardText(card,
-                        self.constants)
+                    self.__db[clean] = formatter.createCardText(card)
+
         except Exception as e:
             log.debug("refreshTemp() failed: %s", e)
 

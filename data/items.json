@@ -1,1968 +1,1968 @@
 {
     "A Thousand Cuts": {
-        "Description": "Whenever you play a card, deal 1 (2) damage to ALL enemies.",
+        "Description": "Whenever you play a card, deal 1 (2) damage to ALL enemies. ",
         "Energy": "2",
         "Name": "A Thousand Cuts",
         "Rarity": "Rare",
-        "Type": "Power"
+        "Type": "Silent Power"
     },
     "Accuracy": {
-        "Description": "Shivs deal 3 (5) additional damage.",
+        "Description": "Shivs deal 3 (5) additional damage. ",
         "Energy": "1",
         "Name": "Accuracy",
         "Rarity": "Uncommon",
-        "Type": "Power"
+        "Type": "Silent Power"
     },
     "Acrobatics": {
-        "Description": "Draw 3 (4) cards. Discard 1 card.",
+        "Description": "Draw 3 (4) cards. Discard 1 card. ",
         "Energy": "1",
         "Name": "Acrobatics",
         "Rarity": "Common",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "Adrenaline": {
-        "Description": "Gain 1 (2) Energy. Draw 2 cards. Exhaust.",
+        "Description": "Gain 1 (2) Energy. Draw 2 cards. Exhaust. ",
         "Energy": "1",
         "Name": "Adrenaline",
         "Rarity": "Rare",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "After Image": {
-        "Description": "(Innate).Whenever you play a card, gain 1 Block.",
+        "Description": "(Innate). Whenever you play a card, gain 1 Block. ",
         "Energy": "1",
         "Name": "After Image",
         "Rarity": "Rare",
-        "Type": "Power"
+        "Type": "Silent Power"
     },
     "All Out Attack": {
-        "Description": "Deal 10 (14) damage to ALL enemies. Draw 1 less card next turn.",
+        "Description": "Deal 10 (14) damage to ALL enemies. Draw 1 less card next turn. ",
         "Energy": "1",
         "Name": "All Out Attack",
         "Rarity": "Uncommon",
-        "Type": "Attack"
+        "Type": "Silent Attack"
     },
     "Anchor": {
-        "Description": "Start each combat with 10 Block.",
+        "Description": "Start each combat with 10 Block. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Anchor",
         "Rarity": "Common",
         "Type": "Relic"
     },
     "Ancient Tea Set": {
-        "Description": "Whenever you enter a Rest Site, start the next combat with 2 Energy.",
+        "Description": "Whenever you enter a Rest Site, start the next combat with 2 Energy. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Ancient Tea Set",
         "Rarity": "Common",
         "Type": "Relic"
     },
     "Anger": {
-        "Description": "Deal 4(6) damage. Place a copy of this card in your discard pile.",
+        "Description": "Deal 4(6) damage. Place a copy of this card in your discard pile. ",
         "Energy": "0",
         "Name": "Anger",
         "Rarity": "Common",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "Apotheosis": {
-        "Description": "Upgrade ALL of your cards for the rest of combat. Exhaust.",
+        "Description": "Upgrade ALL of your cards for the rest of combat. Exhaust. ",
         "Energy": "2(1)",
         "Name": "Apotheosis",
         "Rarity": "Rare",
-        "Type": "Skill"
+        "Type": "Neutral Skill"
     },
     "Armaments": {
-        "Description": "Gain 5 Block. Upgrade a(ALL) card(s) in your hand for the rest of combat.",
+        "Description": "Gain 5 Block. Upgrade a(ALL) card(s) in your hand for the rest of combat. ",
         "Energy": "1",
         "Name": "Armaments",
         "Rarity": "Common",
-        "Type": "Skill"
+        "Type": "Ironclad Skill"
     },
     "Art of War": {
-        "Description": "If you do not play any Attacks during your turn, gain an extra Energy next turn.",
+        "Description": "If you do not play any Attacks during your turn, gain an extra Energy next turn. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Art of War",
         "Rarity": "Common",
         "Type": "Relic"
     },
     "Astrolabe": {
-        "Description": "Upon pickup, choose and Transform 3 cards, then Upgrade them.",
+        "Description": "Upon pickup, choose and Transform 3 cards, then Upgrade them. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Astrolabe",
         "Rarity": "Boss",
         "Type": "Relic"
     },
     "Backflip": {
-        "Description": "Gain 5 (8) block. Draw 2 cards.",
+        "Description": "Gain 5 (8) block. Draw 2 cards. ",
         "Energy": "1",
         "Name": "Backflip",
         "Rarity": "Common",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "Backstab": {
-        "Description": "Deal 12( 16) damage. Innate. Exhaust.",
+        "Description": "Deal 12( 16) damage. Innate. Exhaust. ",
         "Energy": "1",
         "Name": "Backstab",
         "Rarity": "Uncommon",
-        "Type": "Attack"
+        "Type": "Silent Attack"
     },
     "Bag of Marbles": {
-        "Description": "At the start of each combat, apply 1 Vulnerable to ALL enemies.",
+        "Description": "At the start of each combat, apply 1 Vulnerable to ALL enemies. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Bag of Marbles",
         "Rarity": "Common",
         "Type": "Relic"
     },
     "Bag of Preparation": {
-        "Description": "At the start of each combat, draw 2 additional cards.",
+        "Description": "At the start of each combat, draw 2 additional cards. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Bag of Preparation",
         "Rarity": "Common",
         "Type": "Relic"
     },
     "Bandage Up": {
-        "Description": "Heal 4.Exhaust.",
+        "Description": "Heal 4. Exhaust. ",
         "Energy": "0",
         "Name": "Bandage Up",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Neutral Skill"
     },
     "Bane": {
-        "Description": "Deal 7 (10) damage. If the enemy is Poisoned, deal 7 (10) damage again.",
+        "Description": "Deal 7 (10) damage. If the enemy is Poisoned, deal 7 (10) damage again. ",
         "Energy": "1",
         "Name": "Bane",
         "Rarity": "Common",
-        "Type": "Attack"
+        "Type": "Silent Attack"
     },
     "Barricade": {
-        "Description": "Block no longer expires at the start of your turn.",
+        "Description": "Block no longer expires at the start of your turn. ",
         "Energy": "3(2)",
         "Name": "Barricade",
         "Rarity": "Rare",
-        "Type": "Power"
+        "Type": "Ironclad Power"
     },
     "Bash": {
-        "Description": "Deal 8(10) damage. Apply Vulnerable for 2(3) turns.",
+        "Description": "Deal 8(10) damage. Apply Vulnerable for 2(3) turns. ",
         "Energy": "2",
         "Name": "Bash",
         "Rarity": "Basic",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "Battle Trance": {
-        "Description": "Draw 3(4) cards. You cannot draw additional cards this turn.",
+        "Description": "Draw 3(4) cards. You cannot draw additional cards this turn. ",
         "Energy": "0",
         "Name": "Battle Trance",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Ironclad Skill"
     },
     "Berserk": {
-        "Description": "If your HP is below 50%, gain 1 energy at the start of each turn.",
+        "Description": "If your HP is below 50%, gain 1 energy at the start of each turn. ",
         "Energy": "1(0)",
         "Name": "Berserk",
         "Rarity": "Rare",
-        "Type": "Power"
+        "Type": "Ironclad Power"
     },
     "Bird-Faced Urn": {
-        "Description": "Whenever you play a Power, heal 2 HP.",
+        "Description": "Whenever you play a Power, heal 2 HP. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Bird-Faced Urn",
         "Rarity": "Rare",
         "Type": "Relic"
     },
     "Bite": {
-        "Description": "Deal 7(8) damage. Heal 2 (3) HP.",
+        "Description": "Deal 7(8) damage. Heal 2 (3) HP. ",
         "Energy": "1",
         "Name": "Bite",
         "Rarity": "Common",
-        "Type": "Attack"
+        "Type": "Silent Attack"
     },
     "Black Blood": {
-        "Description": "Replaces Burning Blood. At the end of combat, heal 10 HP.",
+        "Description": "Replaces Burning Blood. At the end of combat, heal 10 HP. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Black Blood",
         "Rarity": "Boss (Ironclad)",
         "Type": "Relic"
     },
     "Black Star": {
-        "Description": "Elites now drop 2 Relics when defeated.",
+        "Description": "Elites now drop 2 Relics when defeated. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Black Star",
         "Rarity": "Boss",
         "Type": "Relic"
     },
     "Blade Dance": {
-        "Description": "Add 2 (3) Shivs to your hand.",
+        "Description": "Add 2 (3) Shivs to your hand. ",
         "Energy": "1",
         "Name": "Blade Dance",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "Blind": {
-        "Description": "Apply 2 Weak",
+        "Description": "Apply 2 Weak ",
         "Energy": "0",
         "Name": "Blind",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Neutral Skill"
     },
     "Blood Vial": {
-        "Description": "At the start of each combat, heal 2 HP.",
+        "Description": "At the start of each combat, heal 2 HP. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Blood Vial",
         "Rarity": "Common",
         "Type": "Relic"
     },
     "Blood for Blood": {
-        "Description": "Cost 1 less energy for each time you lose HP in combat. Deal 16(18) damage.",
+        "Description": "Cost 1 less energy for each time you lose HP in combat. Deal 16(18) damage. ",
         "Energy": "4",
         "Name": "Blood for Blood",
         "Rarity": "Uncommon",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "Bloodletting": {
-        "Description": "Gain 1 (2) energy. Lose 3 HP.",
+        "Description": "Gain 1 (2) energy. Lose 3 HP. ",
         "Energy": "0",
         "Name": "Bloodletting",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Ironclad Skill"
     },
     "Bloody Idol": {
-        "Description": "Whenever you gain Gold, heal 5 HP.",
+        "Description": "Whenever you gain Gold, heal 5 HP. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Bloody Idol",
         "Rarity": "Event",
         "Type": "Relic"
     },
     "Bludgeon": {
-        "Description": "Deal 32(42) damage.",
+        "Description": "Deal 32(42) damage. ",
         "Energy": "3",
         "Name": "Bludgeon",
         "Rarity": "Rare",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "Blue Candle": {
-        "Description": "Curse cards can now be played. Playing a Curse will make you lose 1 HP and Exhausts the card.",
+        "Description": "Curse cards can now be played. Playing a Curse will make you lose 1 HP and Exhausts the card. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Blue Candle",
         "Rarity": "Uncommon",
         "Type": "Relic"
     },
     "Blur": {
-        "Description": "Gain 5(8) Block. Block is not removed at the start of your next turn.",
+        "Description": "Gain 5(8) Block. Block is not removed at the start of your next turn. ",
         "Energy": "1",
         "Name": "Blur",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "Body Slam": {
-        "Description": "Deal damage equal to your current Block.",
+        "Description": "Deal damage equal to your current Block. ",
         "Energy": "1(0)",
         "Name": "Body Slam",
         "Rarity": "Common",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "Bottled Flame": {
-        "Description": "Upon pick up, choose an Attack card. At the start of each combat, this card will be in your hand.",
+        "Description": "Upon pick up, choose an Attack card. At the start of each combat, this card will be in your hand. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Bottled Flame",
         "Rarity": "Uncommon",
         "Type": "Relic"
     },
     "Bottled Lightning": {
-        "Description": "Upon pick up, choose a Skill card. At the start of each combat, this card will be in your hand.",
+        "Description": "Upon pick up, choose a Skill card. At the start of each combat, this card will be in your hand. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Bottled Lightning",
         "Rarity": "Uncommon",
         "Type": "Relic"
     },
     "Bottled Tornado": {
-        "Description": "Upon pick up, choose a Power card. At the start of each combat, this card will be in your hand.",
+        "Description": "Upon pick up, choose a Power card. At the start of each combat, this card will be in your hand. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Bottled Tornado",
         "Rarity": "Uncommon",
         "Type": "Relic"
     },
     "Brazing Flask|Bouncing Flask": {
-        "Description": "Apply 3 poison to a random enemy 3 (4) times.",
+        "Description": "Apply 3 poison to a random enemy 3 (4) times. ",
         "Energy": "2",
         "Name": "Brazing Flask|Bouncing Flask",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "Bronze Scales": {
-        "Description": "Whenever you take damage, deal 3 damage back.",
+        "Description": "Whenever you take damage, deal 3 damage back. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Bronze Scales",
         "Rarity": "Common",
         "Type": "Relic"
     },
     "Brutality": {
-        "Description": "(Innate) At the start of your turn, lose 1 HP and draw 1 card.",
+        "Description": "(Innate) At the start of your turn, lose 1 HP and draw 1 card. ",
         "Energy": "0",
         "Name": "Brutality",
         "Rarity": "Rare",
-        "Type": "Power"
+        "Type": "Ironclad Power"
     },
     "Bullet Time": {
-        "Description": "You cannot draw any cads this turn. Reduce the cost of cards in your hand to 0 this turn.",
+        "Description": "You cannot draw any cads this turn. Reduce the cost of cards in your hand to 0 this turn. ",
         "Energy": "3 (2)",
         "Name": "Bullet Time",
         "Rarity": "Rare",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "Burn": {
-        "Description": "Unplayable.At the end of your turn, take 2 (4) damage.",
+        "Description": "Unplayable. At the end of your turn, take 2 (4) damage. ",
         "Energy": "",
         "Name": "Burn",
         "Rarity": "",
         "Type": "Status"
     },
     "Burning Blood": {
-        "Description": "At the end of combat, heal 6 HP.",
+        "Description": "At the end of combat, heal 6 HP. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Burning Blood",
         "Rarity": "Starter (Ironclad)",
         "Type": "Relic"
     },
     "Burning Pact": {
-        "Description": "Exhaust 1 card. Draw 2(3) cards.",
+        "Description": "Exhaust 1 card. Draw 2(3) cards. ",
         "Energy": "1",
         "Name": "Burning Pact",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Ironclad Skill"
     },
     "Burst": {
-        "Description": "This turn your next 1 Skill is (2 Skill|Skills are) played twice.",
+        "Description": "This turn your next 1 Skill is (2 Skills are) played twice. ",
         "Energy": "1",
         "Name": "Burst",
         "Rarity": "Rare",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "Calculated Gamble": {
-        "Description": "Discard your hand, then draw that many cards.Exhaust.(non-exhaust)",
+        "Description": " Discard your hand, then draw that many cards.  Exhaust.(non-exhaust) ",
         "Energy": "0",
         "Name": "Calculated Gamble",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "Calipers": {
-        "Description": "At the start of your turn, lose 15 Block rather than all of your Block.",
+        "Description": "At the start of your turn, lose 15 Block rather than all of your Block. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Calipers",
         "Rarity": "Rare",
         "Type": "Relic"
     },
     "Calling Bell": {
-        "Description": "Obtain 3 Curses and 3 Relics.",
+        "Description": "Obtain 3 Curses and 3 Relics. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Calling Bell",
         "Rarity": "Boss",
         "Type": "Relic"
     },
     "Caltrops": {
-        "Description": "Whenever you are attacked, deal 3 (5) damage to the attacker.",
+        "Description": "Whenever you are attacked, deal 3 (5) damage to the attacker. ",
         "Energy": "1",
         "Name": "Caltrops",
         "Rarity": "Uncommon",
-        "Type": "Power"
+        "Type": "Silent Power"
     },
     "Carnage": {
-        "Description": "Ethereal. Deal 18(26) damage.",
+        "Description": "Ethereal. Deal 18(26) damage. ",
         "Energy": "2",
         "Name": "Carnage",
         "Rarity": "Uncommon",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "Catalyst": {
-        "Description": "Double (Triple) an enemy's Poison. Exhaust.",
+        "Description": "Double (Triple) an enemy's Poison. Exhaust. ",
         "Energy": "1",
         "Name": "Catalyst",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "Cauldron": {
-        "Description": "When obtained, brews 5 random potions.",
+        "Description": "When obtained, brews 5 random potions. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Cauldron",
         "Rarity": "Shop",
         "Type": "Relic"
     },
     "Centennial Puzzle": {
-        "Description": "The first time you lose HP each combat, draw 3 cards.",
+        "Description": "The first time you lose HP each combat, draw 3 cards. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Centennial Puzzle",
         "Rarity": "Uncommon",
         "Type": "Relic"
     },
     "Champion Belt": {
-        "Description": "Whenever you apply Vulnerable, also apply 1 Weak.",
+        "Description": "Whenever you apply Vulnerable, also apply 1 Weak. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Champion Belt",
         "Rarity": "Rare",
         "Type": "Relic"
     },
     "Charon's Ashes": {
-        "Description": "Whenever you Exhaust a card, deal 3 damage to ALL enemies.",
+        "Description": "Whenever you Exhaust a card, deal 3 damage to ALL enemies. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Charon's Ashes",
         "Rarity": "Rare",
         "Type": "Relic"
     },
     "Choke": {
-        "Description": "Deal 12 damage. Whenever you play a card this turn, targeted enemy loses 3 (5) HP.",
+        "Description": "Deal 12 damage. Whenever you play a card this turn, targeted enemy loses 3 (5) HP. ",
         "Energy": "2",
         "Name": "Choke",
         "Rarity": "Uncommon",
-        "Type": "Attack"
+        "Type": "Silent Attack"
     },
     "Clash": {
-        "Description": "Can only be played if every card in your hand is an Attack. Deal 14(18) damage.",
+        "Description": "Can only be played if every card in your hand is an Attack. Deal 14(18) damage. ",
         "Energy": "0",
         "Name": "Clash",
         "Rarity": "Common",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "Cleave": {
-        "Description": "Deal 7(10) damage to ALL enemies.",
+        "Description": "Deal 7(10) damage to ALL enemies. ",
         "Energy": "1",
         "Name": "Cleave",
         "Rarity": "Common",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "Cloak And Dagger": {
-        "Description": "Gain 6 Block|Bblock|lock. Add 1 Shiv (2 Shivs) to your hand.",
+        "Description": "Gain 6 Block|Bblock|lock. Add 1 Shiv (2 Shivs) to your hand. ",
         "Energy": "1",
         "Name": "Cloak And Dagger",
         "Rarity": "Common",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "Clothesline": {
-        "Description": "Deal 12(14) damage. Apply 2(3) Weak.",
+        "Description": "Deal 12(14) damage. Apply 2(3) Weak. ",
         "Energy": "2",
         "Name": "Clothesline",
         "Rarity": "Common",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "Clumsy": {
-        "Description": "Unplayable.Ethereal.",
+        "Description": "Unplayable. Ethereal. ",
         "Energy": "",
         "Name": "Clumsy",
         "Rarity": "",
         "Type": "Curse"
     },
     "Combust": {
-        "Description": "At the end of your turn, lose 1 HP and deal 4(5) damage to ALL enemies.",
+        "Description": "At the end of your turn, lose 1 HP and deal 4(5) damage to ALL enemies. ",
         "Energy": "1",
         "Name": "Combust",
         "Rarity": "Uncommon",
-        "Type": "Power"
+        "Type": "Ironclad Power"
     },
     "Concentrate": {
-        "Description": "Discard 3 (2) cards. Gain 2 Energy.",
+        "Description": "Discard 3 (2) cards. Gain 2 Energy. ",
         "Energy": "0",
         "Name": "Concentrate",
         "Rarity": "Unommon",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "Corpse Explosion": {
-        "Description": "Enemy loses all Poison. Deal damage equal to twice (3 times) the amount lost to ALL enemies.",
+        "Description": "Enemy loses all Poison. Deal damage equal to twice (3 times) the amount lost to ALL enemies. ",
         "Energy": "2",
         "Name": "Corpse Explosion",
         "Rarity": "Rare",
-        "Type": "Attack"
+        "Type": "Silent Attack"
     },
     "Corruption": {
-        "Description": "Skills cost 0. Whenever you play a Skill, Exhaust it.",
+        "Description": "Skills cost 0. Whenever you play a Skill, Exhaust it. ",
         "Energy": "3(2)",
         "Name": "Corruption",
         "Rarity": "Uncommon",
-        "Type": "Power"
+        "Type": "Ironclad Power"
     },
     "Crippling Poison": {
-        "Description": "Apply 3 (5) Poison. Apply 3 (5) Weak.",
+        "Description": "Apply 3 (5) Poison. Apply 3 (5) Weak. ",
         "Energy": "2",
         "Name": "Crippling Poison",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "Cursed Key": {
-        "Description": "Gain 1 Energy at the start of each turn. Whenever you open a non-boss chest, obtain a Curse.",
+        "Description": "Gain 1 Energy at the start of each turn. Whenever you open a non-boss chest, obtain a Curse. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Cursed Key",
         "Rarity": "Boss",
         "Type": "Relic"
     },
     "Dagger Spray": {
-        "Description": "Deal 4 (6) damage to ALL enemies twice.",
+        "Description": "Deal 4 (6) damage to ALL enemies twice. ",
         "Energy": "1",
         "Name": "Dagger Spray",
         "Rarity": "Common",
-        "Type": "Attack"
+        "Type": "Silent Attack"
     },
     "Dagger Throw": {
-        "Description": "Deal 9 (12) damage. Draw 1 card. Discard 1 card.",
+        "Description": "Deal 9 (12) damage. Draw 1 card. Discard 1 card. ",
         "Energy": "1",
         "Name": "Dagger Throw",
         "Rarity": "Common",
-        "Type": "Attack"
+        "Type": "Silent Attack"
     },
     "Dark Embrace": {
-        "Description": "Whenever a card is Exhausted, draw 1 card.",
+        "Description": "Whenever a card is Exhausted, draw 1 card. ",
         "Energy": "2(1)",
         "Name": "Dark Embrace",
         "Rarity": "Rare",
-        "Type": "Power"
+        "Type": "Ironclad Power"
     },
     "Dark Shackles": {
-        "Description": "Enemy loses 9 strength for the rest of this turn. Exhaust.",
+        "Description": "Enemy loses 9 strength for the rest of this turn.  Exhaust. ",
         "Energy": "0",
         "Name": "Dark Shackles",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Neutral Skill"
     },
     "Darkstone Periapt": {
-        "Description": "Whenever you obtain a Curse, increase your Max HP by 6.",
+        "Description": "Whenever you obtain a Curse, increase your Max HP by 6. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Darkstone Periapt",
         "Rarity": "Uncommon",
         "Type": "Relic"
     },
     "Dash": {
-        "Description": "Gain 10 (13) Block. Deal 10 (13) damage.",
+        "Description": "Gain 10 (13) Block. Deal 10 (13) damage. ",
         "Energy": "2",
         "Name": "Dash",
         "Rarity": "Uncommon",
-        "Type": "Attack"
+        "Type": "Silent Attack"
     },
     "Dazed": {
-        "Description": "Unplayable.Ethereal.",
+        "Description": "Unplayable. Ethereal. ",
         "Energy": "",
         "Name": "Dazed",
         "Rarity": "",
         "Type": "Status"
     },
     "Dead Branch": {
-        "Description": "Whenever you Exhaust a card, add a random card to your hand.",
+        "Description": "Whenever you Exhaust a card, add a random card to your hand. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Dead Branch",
         "Rarity": "Rare",
         "Type": "Relic"
     },
     "Deadly Poison": {
-        "Description": "Apply 4 (6) Poison.",
+        "Description": "Apply 4 (6) Poison. ",
         "Energy": "1",
         "Name": "Deadly Poison",
         "Rarity": "Common",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "Decay": {
-        "Description": "Unplayable.At the end of your turn, take 2 damage.",
+        "Description": "Unplayable. At the end of your turn, take 2 damage. ",
         "Energy": "",
         "Name": "Decay",
         "Rarity": "",
         "Type": "Curse"
     },
     "Deep Breath": {
-        "Description": "Shuffle your discard pile into your draw pile. Draw 1 card",
+        "Description": "Shuffle your discard pile into your draw pile.  Draw 1 card ",
         "Energy": "0",
         "Name": "Deep Breath",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Neutral Skill"
     },
     "Defend": {
-        "Description": "Gain 5(8) Block.",
+        "Description": "Gain 5(8) Block. ",
         "Energy": "1",
         "Name": "Defend",
         "Rarity": "Basic",
-        "Type": "Skill"
+        "Type": "Ironclad Skill"
     },
     "Deflect": {
-        "Description": "Gain 4(6) Block.",
+        "Description": "Gain 4(6) Block. ",
         "Energy": "0",
         "Name": "Deflect",
         "Rarity": "Common",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "Demon Form": {
-        "Description": "At the start of each turn, gain 2(3) Strength.",
+        "Description": "At the start of each turn, gain 2(3) Strength. ",
         "Energy": "3",
         "Name": "Demon Form",
         "Rarity": "Rare",
-        "Type": "Power"
+        "Type": "Ironclad Power"
     },
     "Die Die Die": {
-        "Description": "Deal 13 (17) damage to ALL enemies. Exhaust.",
+        "Description": " Deal 13 (17) damage to ALL enemies.   Exhaust. ",
         "Energy": "1",
         "Name": "Die Die Die",
         "Rarity": "Rare",
-        "Type": "Attack"
+        "Type": "Silent Attack"
     },
     "Disarm": {
-        "Description": "Enemy loses 2(3) Strength. Exhaust.",
+        "Description": "Enemy loses 2(3) Strength. Exhaust. ",
         "Energy": "1",
         "Name": "Disarm",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Ironclad Skill"
     },
     "Distraction": {
-        "Description": "Add a random Skill to your hand. It costs 0 this turn. Exhaust.",
+        "Description": "Add a random Skill to your hand. It costs 0 this turn. Exhaust. ",
         "Energy": "1 (0)",
         "Name": "Distraction",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "Dodge and Roll": {
-        "Description": "Gain 4 (6) Block. Next turn gain 4 (6) Block.",
+        "Description": "Gain 4 (6) Block. Next turn gain 4 (6) Block. ",
         "Energy": "1",
         "Name": "Dodge and Roll",
         "Rarity": "Common",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "Doppelganger": {
-        "Description": "Next turn, draw X(+1) cards and gain X(+1) Energy.",
+        "Description": "Next turn, draw X(+1) cards and gain X(+1) Energy. ",
         "Energy": "X",
         "Name": "Doppelganger",
         "Rarity": "Rare",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "Double Tap": {
-        "Description": "This turn, your next (2) Attack(s) is played twice.",
+        "Description": "This turn, your next (2) Attack(s) is played twice. ",
         "Energy": "1",
         "Name": "Double Tap",
         "Rarity": "Rare",
-        "Type": "Skill"
+        "Type": "Ironclad Skill"
     },
     "Doubt": {
-        "Description": "Unplayable.At the end of your turn, gain 1 weak.",
+        "Description": "Unplayable. At the end of your turn, gain 1 weak. ",
         "Energy": "",
         "Name": "Doubt",
         "Rarity": "",
         "Type": "Curse"
     },
     "Dramatic Entrance": {
-        "Description": "Innate. Deal 6(8) damage to all enemies. Exhaust.",
+        "Description": "Innate.  Deal 6(8) damage to all enemies.   Exhaust. ",
         "Energy": "0",
         "Name": "Dramatic Entrance",
         "Rarity": "Uncommon",
-        "Type": "Attack"
+        "Type": "Neutral Attack"
     },
     "Dream Catcher": {
-        "Description": "Whenever you rest, you may add a card to your deck.",
+        "Description": "Whenever you rest, you may add a card to your deck. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Dream Catcher",
         "Rarity": "Common",
         "Type": "Relic"
     },
     "Dropkick": {
-        "Description": "Deal 5(8) damage. If the target is Vulnerable, gain 1 energy and draw 1 card.",
+        "Description": "Deal 5(8) damage. If the target is Vulnerable, gain 1 energy and draw 1 card. ",
         "Energy": "1",
         "Name": "Dropkick",
         "Rarity": "Uncommon",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "Du-Vu Doll": {
-        "Description": "For each Curse in your deck, start each combat with 1 additional Strength.",
+        "Description": "For each Curse in your deck, start each combat with 1 additional Strength. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Du-Vu Doll",
         "Rarity": "Rare",
         "Type": "Relic"
     },
     "Dual Wield": {
-        "Description": "Create a(2) copy(s) of a card in your hand.",
+        "Description": "Create a(2) copy(s) of a card in your hand. ",
         "Energy": "1",
         "Name": "Dual Wield",
         "Rarity": "Common",
-        "Type": "Skill"
+        "Type": "Ironclad Skill"
     },
     "Ectoplasm": {
-        "Description": "Gain 1 Energy at the start of each turn. You can no longer gain Gold.",
+        "Description": "Gain 1 Energy at the start of each turn. You can no longer gain Gold. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Ectoplasm",
         "Rarity": "Boss",
         "Type": "Relic"
     },
     "Enchiridion": {
-        "Description": "Start each combat with a random Power card in your hand. It costs 0 until the end of turn.",
+        "Description": "Start each combat with a random Power card in your hand. It costs 0 until the end of turn. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Enchiridion",
         "Rarity": "Event",
         "Type": "Relic"
     },
     "Endless Agony": {
-        "Description": "Whenever you draw this card, add a copy of it to your hand. Deal 4 (6) damage. Exhaust.",
+        "Description": "Whenever you draw this card, add a copy of it to your hand. Deal 4 (6) damage. Exhaust. ",
         "Energy": "0",
         "Name": "Endless Agony",
         "Rarity": "Uncommon",
-        "Type": "Attack"
+        "Type": "Silent Attack"
     },
     "Enlightenment": {
-        "Description": "Reduce the cost of cards in your hand to 1 this turn(combat).",
+        "Description": "Reduce the cost of cards in your hand to 1 this turn(combat). ",
         "Energy": "0",
         "Name": "Enlightenment",
         "Rarity": "Rare",
-        "Type": "Skill"
+        "Type": "Neutral Skill"
     },
     "Entrench": {
-        "Description": "Double your current Block.",
+        "Description": "Double your current Block. ",
         "Energy": "2(1)",
         "Name": "Entrench",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Ironclad Skill"
     },
     "Envenom": {
-        "Description": "Whenever an attack deals unblocked damage, apply 1 Poison.",
+        "Description": "Whenever an attack deals unblocked damage, apply 1 Poison. ",
         "Energy": "2 (1)",
         "Name": "Envenom",
         "Rarity": "Rare",
-        "Type": "Power"
+        "Type": "Silent Power"
     },
     "Escape Plan": {
-        "Description": "Draw 1 card. If the card is a Skill, gain 3 (5) Block.",
+        "Description": "Draw 1 card. If the card is a Skill, gain 3 (5) Block. ",
         "Energy": "0",
         "Name": "Escape Plan",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "Eternal Feather": {
-        "Description": "For every 5 cards in your deck, heal 2 HP whenever you enter a Rest Site.",
+        "Description": "For every 5 cards in your deck, heal 2 HP whenever you enter a Rest Site. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Eternal Feather",
         "Rarity": "Boss",
         "Type": "Relic"
     },
     "Eviscerate": {
-        "Description": "Costs 1 less Energy for each card discarded this turn. Deal 6 (8) damage three times.",
+        "Description": "Costs 1 less Energy for each card discarded this turn. Deal 6 (8) damage three times. ",
         "Energy": "4",
         "Name": "Eviscerate",
         "Rarity": "Uncommon",
-        "Type": "Attack"
+        "Type": "Silent Attack"
     },
     "Evolve": {
-        "Description": "Shuffle 2 Wounds into your draw pile. Whenever you draw a Wound, draw 1(2) card(s).",
+        "Description": "Shuffle 2 Wounds into your draw pile. Whenever you draw a Wound, draw 1(2) card(s). ",
         "Energy": "1",
         "Name": "Evolve",
         "Rarity": "Uncommon",
-        "Type": "Power"
+        "Type": "Ironclad Power"
     },
     "Exhume": {
-        "Description": "Choose an Exhausted card and put it in your hand. Exhaust.",
+        "Description": "Choose an Exhausted card and put it in your hand. Exhaust. ",
         "Energy": "1(0)",
         "Name": "Exhume",
         "Rarity": "Rare",
-        "Type": "Skill"
+        "Type": "Ironclad Skill"
     },
     "Feed": {
-        "Description": "Deal 10(12) damage. If this kills the enemy, gain 3(4) permanent Max HP.",
+        "Description": "Deal 10(12) damage. If this kills the enemy, gain 3(4) permanent Max HP. ",
         "Energy": "1",
         "Name": "Feed",
         "Rarity": "Rare",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "Feel No Pain": {
-        "Description": "Whenever a card is Exhausted, gain 4(6) Block.",
+        "Description": "Whenever a card is Exhausted, gain 4(6) Block. ",
         "Energy": "1",
         "Name": "Feel No Pain",
         "Rarity": "Uncommon",
-        "Type": "Power"
+        "Type": "Ironclad Power"
     },
     "Fiend Fire": {
-        "Description": "Exhaust your hand. Deal 7(10) damage for each Exhausted card. Exhaust.",
+        "Description": "Exhaust your hand. Deal 7(10) damage for each Exhausted card. Exhaust. ",
         "Energy": "2",
         "Name": "Fiend Fire",
         "Rarity": "Rare",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "Finesse": {
-        "Description": "Gain 2 block. Draw 1 card.",
+        "Description": "Gain 2 block.  Draw 1 card. ",
         "Energy": "0",
         "Name": "Finesse",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Neutral Skill"
     },
     "Finisher": {
-        "Description": "Deal 6 (8) damage for each Attack played this turn.",
+        "Description": "Deal 6 (8) damage for each Attack played this turn. ",
         "Energy": "1",
         "Name": "Finisher",
         "Rarity": "Uncommon",
-        "Type": "Attack"
+        "Type": "Silent Attack"
     },
     "Fire Breathing": {
-        "Description": "At the end of your turn, for each Attack played this turn deal 1 damage to ALL enemies.",
+        "Description": "At the end of your turn, for each Attack played this turn deal 1 damage to ALL enemies. ",
         "Energy": "1(0)",
         "Name": "Fire Breathing",
         "Rarity": "Uncommon",
-        "Type": "Power"
+        "Type": "Ironclad Power"
     },
     "Flame Barrier": {
-        "Description": "Gain 12(16) Block. Whenever you are attacked this turn, deal 4 damage to the attacker.",
+        "Description": "Gain 12(16) Block. Whenever you are attacked this turn, deal 4 damage to the attacker. ",
         "Energy": "2",
         "Name": "Flame Barrier",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Ironclad Skill"
     },
     "Flash of Steal|Flash of Steel": {
-        "Description": "Deal 3 damage. Draw 1 card.",
+        "Description": "Deal 3 damage.  Draw 1 card. ",
         "Energy": "0",
         "Name": "Flash of Steal|Flash of Steel",
         "Rarity": "Uncommon",
-        "Type": "Attack"
+        "Type": "Neutral Attack"
     },
     "Flechettes": {
-        "Description": "Deal 4 (6) damage for each Skill in your hand.",
+        "Description": "Deal 4 (6) damage for each Skill in your hand. ",
         "Energy": "1",
         "Name": "Flechettes",
         "Rarity": "Uncommon",
-        "Type": "Attack"
+        "Type": "Silent Attack"
     },
     "Flex": {
-        "Description": "Gain 2(4) Strength. At the end of your turn, lose 2(4) Strength.",
+        "Description": "Gain 2(4) Strength. At the end of your turn, lose 2(4) Strength. ",
         "Energy": "0",
         "Name": "Flex",
         "Rarity": "Common",
-        "Type": "Skill"
+        "Type": "Ironclad Skill"
     },
     "Flying Knee": {
-        "Description": "Deal 8 (11) damage. Next turn gain 1 Energy.",
+        "Description": "Deal 8 (11) damage. Next turn gain 1 Energy. ",
         "Energy": "1",
         "Name": "Flying Knee",
         "Rarity": "Common",
-        "Type": "Attack"
+        "Type": "Silent Attack"
     },
     "Footwork": {
-        "Description": "Gain 2 (3) Dexterity.",
+        "Description": "Gain 2 (3) Dexterity. ",
         "Energy": "1",
         "Name": "Footwork",
         "Rarity": "Uncommon",
-        "Type": "Power"
+        "Type": "Silent Power"
     },
     "Frozen Egg": {
-        "Description": "Upon pick up, choose and Upgrade a Power.",
+        "Description": "Upon pick up, choose and Upgrade a Power. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Frozen Egg",
         "Rarity": "Common",
         "Type": "Relic"
     },
     "Frozen Eye": {
-        "Description": "When viewing your Draw Pile, the cards are now shown in order.",
+        "Description": "When viewing your Draw Pile, the cards are now shown in order. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Frozen Eye",
         "Rarity": "Rare",
         "Type": "Relic"
     },
     "Gambling Chip": {
-        "Description": "At the start of each combat, discard any number of cards then draw that many.",
+        "Description": "At the start of each combat, discard any number of cards then draw that many. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Gambling Chip",
         "Rarity": "Rare",
         "Type": "Relic"
     },
     "Ghostly Armor": {
-        "Description": "Ethereal.Gain 10 Block.",
+        "Description": "Ethereal. Gain 10 Block.  ",
         "Energy": "1",
         "Name": "Ghostly Armor",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Ironclad Skill"
     },
     "Ginger": {
-        "Description": "You can no longer become Weakened.",
+        "Description": "You can no longer become Weakened. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Ginger",
         "Rarity": "Rare",
         "Type": "Relic"
     },
     "Girya": {
-        "Description": "You can now gain Strength at Rest Sites. (3 times max)",
+        "Description": "You can now gain Strength at Rest Sites. (3 times max) ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Girya",
         "Rarity": "Rare",
         "Type": "Relic"
     },
     "Glass Knife": {
-        "Description": "Deal 8 (12) damage twice. Glass Knife's damage is lowered by 2 this combat.",
+        "Description": "Deal 8 (12) damage twice. Glass Knife's damage is lowered by 2 this combat. ",
         "Energy": "1",
         "Name": "Glass Knife",
         "Rarity": "Rare",
-        "Type": "Attack"
+        "Type": "Silent Attack"
     },
     "Golden Idol (Relic)|Golden Idol": {
-        "Description": "Enemies drop 25% more Gold.",
+        "Description": "Enemies drop 25% more Gold. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Golden Idol (Relic)|Golden Idol",
         "Rarity": "Event",
         "Type": "Relic"
     },
     "Good Instincts": {
-        "Description": "Gain 4 block.",
+        "Description": "Gain 4 block. ",
         "Energy": "0",
         "Name": "Good Instincts",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Neutral Skill"
     },
     "Grand Finale": {
-        "Description": "Can only be played if there are no cards in your draw pile. Deal 40 (50) damage to ALL enemies.",
+        "Description": "Can only be played if there are no cards in your draw pile. Deal 40 (50) damage to ALL enemies. ",
         "Energy": "1",
         "Name": "Grand Finale",
         "Rarity": "Rare",
-        "Type": "Attack"
+        "Type": "Silent Attack"
     },
     "Gremlin Horn": {
-        "Description": "Whenever an enemy dies, gain 1 Energy and draw 1 card.",
+        "Description": "Whenever an enemy dies, gain 1 Energy and draw 1 card. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Gremlin Horn",
         "Rarity": "Uncommon",
         "Type": "Relic"
     },
     "Happy Flower": {
-        "Description": "Every 3 turns, gain 1 Energy.",
+        "Description": "Every 3 turns, gain 1 Energy. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Happy Flower",
         "Rarity": "Common",
         "Type": "Relic"
     },
     "Havoc": {
-        "Description": "Play the top card of your draw pile and Exhaust it.",
+        "Description": "Play the top card of your draw pile and Exhaust it. ",
         "Energy": "1(0)",
         "Name": "Havoc",
         "Rarity": "Common",
-        "Type": "Skill"
+        "Type": "Ironclad Skill"
     },
     "Headbutt": {
-        "Description": "Deal 9(12) damage. Place a card from your discard pile on top of your draw pile.",
+        "Description": "Deal 9(12) damage. Place a card from your discard pile on top of your draw pile. ",
         "Energy": "1",
         "Name": "Headbutt",
         "Rarity": "Common",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "Heavy Blade": {
-        "Description": "Deal 14 damage. Strength affects Heavy Blade 3(5) times.",
+        "Description": "Deal 14 damage. Strength affects Heavy Blade 3(5) times. ",
         "Energy": "2",
         "Name": "Heavy Blade",
         "Rarity": "Common",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "Heel Hook": {
-        "Description": "Deal 5 (7) damage. If the enemy is Weak, Gain 1 Energy and draw 1 card.",
+        "Description": "Deal 5 (7) damage. If the enemy is Weak, Gain 1 Energy and draw 1 card. ",
         "Energy": "1",
         "Name": "Heel Hook",
         "Rarity": "Uncommon",
-        "Type": "Attack"
+        "Type": "Silent Attack"
     },
     "Hemokinesis": {
-        "Description": "Lose 3(2) HP. Deal 14(18) damage.",
+        "Description": "Lose 3(2) HP. Deal 14(18) damage. ",
         "Energy": "1",
         "Name": "Hemokinesis",
         "Rarity": "Uncommon",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "Ice Cream": {
-        "Description": "Energy is now conserved between turns.",
+        "Description": "Energy is now conserved between turns. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Ice Cream",
         "Rarity": "Rare",
         "Type": "Relic"
     },
     "Immolate": {
-        "Description": "Exhaust 1 card. If the chosen card was a Status or Curse, deal 10(15) damage to ALL enemies.",
+        "Description": "Exhaust 1 card. If the chosen card was a Status or Curse, deal 10(15) damage to ALL enemies. ",
         "Energy": "1",
         "Name": "Immolate",
         "Rarity": "Rare",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "Impervious": {
-        "Description": "Gain 30(40) Block. Exhaust.",
+        "Description": "Gain 30(40) Block. Exhaust. ",
         "Energy": "2",
         "Name": "Impervious",
         "Rarity": "Rare",
-        "Type": "Skill"
+        "Type": "Ironclad Skill"
     },
     "Infernal Blade": {
-        "Description": "Add a random Attack to your hand. It costs 0 this turn. Exhaust.",
+        "Description": "Add a random Attack to your hand. It costs 0 this turn. Exhaust. ",
         "Energy": "1(0)",
         "Name": "Infernal Blade",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Ironclad Skill"
     },
     "Infinite Blades": {
-        "Description": "(Innate).At the start of your turn, add a Shiv to your hand.",
+        "Description": "(Innate). At the start of your turn, add a Shiv to your hand. ",
         "Energy": "1",
         "Name": "Infinite Blades",
         "Rarity": "Uncommon",
-        "Type": "Power"
+        "Type": "Silent Power"
     },
     "Inflame": {
-        "Description": "Gain 2(3) Strength.",
+        "Description": "Gain 2(3) Strength. ",
         "Energy": "1",
         "Name": "Inflame",
         "Rarity": "Uncommon",
-        "Type": "Power"
+        "Type": "Ironclad Power"
     },
     "Injury": {
-        "Description": "Unplayable.",
+        "Description": "Unplayable. ",
         "Energy": "",
         "Name": "Injury",
         "Rarity": "",
         "Type": "Curse"
     },
     "Intimidate": {
-        "Description": "Apply 1(2) Weak to ALL enemies. Exhaust.",
+        "Description": "Apply 1(2) Weak to ALL enemies. Exhaust. ",
         "Energy": "0",
         "Name": "Intimidate",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Ironclad Skill"
     },
     "Iron Wave": {
-        "Description": "Gain 5(7) Block. Deal 5(7) damage.",
+        "Description": "Gain 5(7) Block. Deal 5(7) damage. ",
         "Energy": "1",
         "Name": "Iron Wave",
         "Rarity": "Common",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "J.A.X.|J.A.X": {
-        "Description": "Lose 3 HP. Gain 2(3) strength.Exhaust. ''(Obtained from event.)''",
+        "Description": "Lose 3 HP.  Gain 2(3) strength.  Exhaust.   ''(Obtained from event.)'' ",
         "Energy": "0",
         "Name": "J.A.X.|J.A.X",
         "Rarity": "Common",
-        "Type": "Skill"
+        "Type": "Neutral Skill"
     },
     "Jack Of All Trades": {
-        "Description": "Add a(2) random colorless card to your hand. Exhaust.",
+        "Description": "Add a(2) random colorless card to your hand.  Exhaust. ",
         "Energy": "0",
         "Name": "Jack Of All Trades",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Neutral Skill"
     },
     "Juggernaut": {
-        "Description": "Whenever you gain Block, deal 3(5) damage to ALL enemies.",
+        "Description": "Whenever you gain Block, deal 3(5) damage to ALL enemies. ",
         "Energy": "2",
         "Name": "Juggernaut",
         "Rarity": "Rare",
-        "Type": "Power"
+        "Type": "Ironclad Power"
     },
     "Juzu Bracelet": {
-        "Description": "Regular enemy combats are no longer encountered in ? rooms.",
+        "Description": "Regular enemy combats are no longer encountered in ? rooms. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Juzu Bracelet",
         "Rarity": "Common",
         "Type": "Relic"
     },
     "Kunai": {
-        "Description": "Every time you play 3 Attacks in a single turn, gain 1 Dexterity.",
+        "Description": "Every time you play 3 Attacks in a single turn, gain 1 Dexterity. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Kunai",
         "Rarity": "Uncommon",
         "Type": "Relic"
     },
     "Lantern": {
-        "Description": "Gain 1 Energy on the first turn of each combat.",
+        "Description": "Gain 1 Energy on the first turn of each combat. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Lantern",
         "Rarity": "Common",
         "Type": "Relic"
     },
     "Lee's Waffle": {
-        "Description": "Raise your Max HP by 7 and heal all of your HP.",
+        "Description": "Raise your Max HP by 7 and heal all of your HP. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Lee's Waffle",
         "Rarity": "Shop",
         "Type": "Relic"
     },
     "Leg Sweep": {
-        "Description": "Apply 2 (3) Weak. Gain 12 (15) Block.",
+        "Description": "Apply 2 (3) Weak. Gain 12 (15) Block. ",
         "Energy": "2",
         "Name": "Leg Sweep",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "Letter Opener": {
-        "Description": "Every time you play 3 Skills in a single turn, deal 5 damage to ALL enemies.",
+        "Description": "Every time you play 3 Skills in a single turn, deal 5 damage to ALL enemies. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Letter Opener",
         "Rarity": "Uncommon",
         "Type": "Relic"
     },
     "Limit Break": {
-        "Description": "Double your Strength. Exhaust(Don't Exhaust).",
+        "Description": "Double your Strength. Exhaust(Don't Exhaust). ",
         "Energy": "1",
         "Name": "Limit Break",
         "Rarity": "Rare",
-        "Type": "Skill"
+        "Type": "Ironclad Skill"
     },
     "Lizard Tail": {
-        "Description": "When you would die, heal to 50% of your Max HP instead (works once).",
+        "Description": "When you would die, heal to 50% of your Max HP instead (works once). ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Lizard Tail",
         "Rarity": "Boss",
         "Type": "Relic"
     },
     "Madness": {
-        "Description": "A random card in your hand costs 0 for the rest of combat. Exhaust.",
+        "Description": "A random card in your hand costs 0 for the rest of combat. Exhaust.  ",
         "Energy": "1(0)",
         "Name": "Madness",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Neutral Skill"
     },
     "Magic Flower": {
-        "Description": "Healing is 50% more effective during combat.",
+        "Description": "Healing is 50% more effective during combat. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Magic Flower",
         "Rarity": "Rare",
         "Type": "Relic"
     },
     "Malaise": {
-        "Description": "Spend all Energy. Enemy loses X (+1) Strength. Apply X (+1) Weak. Exhaust.",
+        "Description": "Spend all Energy. Enemy loses X (+1) Strength. Apply X (+1) Weak. Exhaust. ",
         "Energy": "X",
         "Name": "Malaise",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "Mango": {
-        "Description": "Raise your Max HP by 14.",
+        "Description": "Raise your Max HP by 14. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Mango",
         "Rarity": "Rare",
         "Type": "Relic"
     },
     "Mark of Pain": {
-        "Description": "Gain 1 Energy at the start of each turn. Start combats with 2 Wounds in your draw pile.",
+        "Description": "Gain 1 Energy at the start of each turn. Start combats with 2 Wounds in your draw pile. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Mark of Pain",
         "Rarity": "Boss",
         "Type": "Relic"
     },
     "Master Of Strategy": {
-        "Description": "Draw 3(4) Cards. Exhaust.",
+        "Description": "Draw 3(4) Cards. Exhaust. ",
         "Energy": "0",
         "Name": "Master Of Strategy",
         "Rarity": "Rare",
-        "Type": "Skill"
+        "Type": "Neutral Skill"
     },
     "Masterful Stab": {
-        "Description": "Can only be played if there are no other cards in your hand. Deal 15 (20) damage.",
+        "Description": "Can only be played if there are no other cards in your hand. Deal 15 (20) damage. ",
         "Energy": "0",
         "Name": "Masterful Stab",
         "Rarity": "Uncommon",
-        "Type": "Attack"
+        "Type": "Silent Attack"
     },
     "Matryoshka": {
-        "Description": "The next 2 Chest|chests you open contain 2 Relics. (Excludes boss chests)",
+        "Description": "The next 2 Chest|chests you open contain 2 Relics. (Excludes boss chests) ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Matryoshka",
         "Rarity": "Uncommon",
         "Type": "Relic"
     },
     "Meat on the Bone": {
-        "Description": "If your HP is at or below 50% at the end of combat, heal 12 HP.",
+        "Description": "If your HP is at or below 50% at the end of combat, heal 12 HP. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Meat on the Bone",
         "Rarity": "Uncommon",
         "Type": "Relic"
     },
     "Medical Kit": {
-        "Description": "Statuses|Status cards can now be played. Playing a Status will Exhaust the card.",
+        "Description": "Statuses|Status cards can now be played. Playing a Status will Exhaust the card. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Medical Kit",
         "Rarity": "Shop",
         "Type": "Relic"
     },
     "Membership Card": {
-        "Description": "In future acts, shops appear 50% more often. BONUS: 20% discount on all products!",
+        "Description": "In future acts, shops appear 50% more often. BONUS: 20% discount on all products! ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Membership Card",
         "Rarity": "Shop",
         "Type": "Relic"
     },
     "Mercury Hourglass": {
-        "Description": "At the start of your turn, deal 3 damage to ALL enemies.",
+        "Description": "At the start of your turn, deal 3 damage to ALL enemies. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Mercury Hourglass",
         "Rarity": "Uncommon",
         "Type": "Relic"
     },
     "Metallicize": {
-        "Description": "At the end of your turn, gain 3(4) Block.",
+        "Description": "At the end of your turn, gain 3(4) Block. ",
         "Energy": "1",
         "Name": "Metallicize",
         "Rarity": "Uncommon",
-        "Type": "Power"
+        "Type": "Ironclad Power"
     },
     "Mind Blast": {
-        "Description": "Deal damage equal to the number of cards in your draw pile.",
+        "Description": "Deal damage equal to the number of cards in your draw pile. ",
         "Energy": "0",
         "Name": "Mind Blast",
         "Rarity": "Uncommon",
-        "Type": "Attack"
+        "Type": "Neutral Attack"
     },
     "Molten Egg": {
-        "Description": "Upon pick up, choose and Upgrade an Attack.",
+        "Description": "Upon pick up, choose and Upgrade an Attack. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Molten Egg",
         "Rarity": "Common",
         "Type": "Relic"
     },
     "Mummified Hand": {
-        "Description": "Whenever you play a Power, a random card in your hand costs 0 for the turn.",
+        "Description": "Whenever you play a Power, a random card in your hand costs 0 for the turn. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Mummified Hand",
         "Rarity": "Uncommon",
         "Type": "Relic"
     },
     "Necronomicon": {
-        "Description": "The first Attack played each turn that costs 2 or more is played twice. When you take this relic, become Cursed.",
+        "Description": "The first Attack played each turn that costs 2 or more is played twice. When you take this relic, become Cursed. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Necronomicon",
         "Rarity": "Event",
         "Type": "Relic"
     },
     "Necronomicurse": {
-        "Description": "Unplayable.There is no escape from this Curse.",
+        "Description": "Unplayable. There is no escape from this Curse. ",
         "Energy": "",
         "Name": "Necronomicurse",
         "Rarity": "",
         "Type": "Curse"
     },
     "Neow's Lament": {
-        "Description": "Enemies in your first 3 combats will have 1 HP.",
+        "Description": "Enemies in your first 3 combats will have 1 HP. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Neow's Lament",
         "Rarity": "Event",
         "Type": "Relic"
     },
     "Neutralize": {
-        "Description": "Deal 3 (4) damage. Apply 1 (2) Weak.",
+        "Description": "Deal 3 (4) damage. Apply 1 (2) Weak. ",
         "Energy": "0",
         "Name": "Neutralize",
         "Rarity": "Common",
-        "Type": "Attack"
+        "Type": "Silent Attack"
     },
     "Nightmare": {
-        "Description": "Choose a card.Next turn, add 3 copies of that card into your hand.Exhaust.",
+        "Description": "Choose a card. Next turn, add 3 copies of that card into your hand.  Exhaust. ",
         "Energy": "3 (2)",
         "Name": "Nightmare",
         "Rarity": "Rare",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "Nilry's Codex": {
-        "Description": "At the end of each turn, you can choose 1 of 3 random cards to shuffle into your draw pile.",
+        "Description": "At the end of each turn, you can choose 1 of 3 random cards to shuffle into your draw pile. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Nilry's Codex",
         "Rarity": "Event",
         "Type": "Relic"
     },
     "Ninja Scroll": {
-        "Description": "Start each combat with 3 Shivs in hand.",
+        "Description": "Start each combat with 3 Shivs in hand. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Ninja Scroll",
         "Rarity": "Uncommon (Silent)",
         "Type": "Relic"
     },
     "Nloth's Gift": {
-        "Description": "Triples the chance of receiving rare cards as monster rewards.",
+        "Description": "Triples the chance of receiving rare cards as monster rewards. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Nloth's Gift",
         "Rarity": "Event",
         "Type": "Relic"
     },
     "Normality": {
-        "Description": "Unplayable.You cannot play more than 3 cards this turn.",
+        "Description": "Unplayable. You cannot play more than 3 cards this turn. ",
         "Energy": "",
         "Name": "Normality",
         "Rarity": "",
         "Type": "Curse"
     },
     "Noxious Fumes": {
-        "Description": "At the start of your turn, apply 2 (3) Poison to ALL enemies.",
+        "Description": "At the start of your turn, apply 2 (3) Poison to ALL enemies. ",
         "Energy": "1",
         "Name": "Noxious Fumes",
         "Rarity": "Uncommon",
-        "Type": "Power"
+        "Type": "Silent Power"
     },
     "Odd Mushroom": {
-        "Description": "When Vulnerable, take 25% more damage rather than 50%.",
+        "Description": "When Vulnerable, take 25% more damage rather than 50%. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Odd Mushroom",
         "Rarity": "Event",
         "Type": "Relic"
     },
     "Oddly Smooth Stone": {
-        "Description": "At the start of each combat, gain 1 Dexterity.",
+        "Description": "At the start of each combat, gain 1 Dexterity. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Oddly Smooth Stone",
         "Rarity": "Common",
         "Type": "Relic"
     },
     "Offering": {
-        "Description": "Lose 4 HP. Gain 2 energy. Draw 3(5) cards. Exhaust.",
+        "Description": "Lose 4 HP. Gain 2 energy. Draw 3(5) cards. Exhaust. ",
         "Energy": "0",
         "Name": "Offering",
         "Rarity": "Rare",
-        "Type": "Skill"
+        "Type": "Ironclad Skill"
     },
     "Old Coin": {
-        "Description": "Gain 300 Gold.",
+        "Description": "Gain 300 Gold. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Old Coin",
         "Rarity": "Rare",
         "Type": "Relic"
     },
     "Omamori": {
-        "Description": "Negate the next 2 Curses you obtain.",
+        "Description": "Negate the next 2 Curses you obtain. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Omamori",
         "Rarity": "Common",
         "Type": "Relic"
     },
     "Orichalcum": {
-        "Description": "If you end your turn without Block, gain 6 Block.",
+        "Description": "If you end your turn without Block, gain 6 Block. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Orichalcum",
         "Rarity": "Common",
         "Type": "Relic"
     },
     "Ornamental Fan": {
-        "Description": "Every time you play 3 Attacks in a single turn, gain 4 Block.",
+        "Description": "Every time you play 3 Attacks in a single turn, gain 4 Block. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Ornamental Fan",
         "Rarity": "Uncommon",
         "Type": "Relic"
     },
     "Orrery": {
-        "Description": "Choose and add 5 cards to your deck.",
+        "Description": "Choose and add 5 cards to your deck. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Orrery",
         "Rarity": "Boss",
         "Type": "Relic"
     },
     "Outmaneuver": {
-        "Description": "Next turn gain 2 (3) Energy.",
+        "Description": "Next turn gain 2 (3) Energy. ",
         "Energy": "1",
         "Name": "Outmaneuver",
         "Rarity": "Common",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "Pain": {
-        "Description": "Unplayable.While in hand, lose 1 HP when other cards are played.",
+        "Description": "Unplayable. While in hand, lose 1 HP when other cards are played. ",
         "Energy": "",
         "Name": "Pain",
         "Rarity": "",
         "Type": "Curse"
     },
     "Panacea": {
-        "Description": "Gain 1 Artifact.Exhaust.",
+        "Description": "Gain 1 Artifact. Exhaust. ",
         "Energy": "0",
         "Name": "Panacea",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Neutral Skill"
     },
     "Panache": {
-        "Description": "Every time you play 5 cards in a single turn, deal 10(14) damage to ALL enemies.",
+        "Description": "Every time you play 5 cards in a single turn, deal 10(14) damage to ALL enemies. ",
         "Energy": "0",
         "Name": "Panache",
         "Rarity": "Rare",
-        "Type": "Power"
+        "Type": "Neutral Power"
     },
     "Pandora's Box": {
-        "Description": "Transform all Strikes and Defends.",
+        "Description": "Transform all Strikes and Defends. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Pandora's Box",
         "Rarity": "Boss",
         "Type": "Relic"
     },
     "Pantograph": {
-        "Description": "At the start of Bosses|boss combats, heal 25 HP.",
+        "Description": "At the start of Bosses|boss combats, heal 25 HP. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Pantograph",
         "Rarity": "Uncommon",
         "Type": "Relic"
     },
     "Paper Krane": {
-        "Description": "Enemies with Weak deal 50% less damage rather than 25%.",
+        "Description": "Enemies with Weak deal 50% less damage rather than 25%. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Paper Krane",
         "Rarity": "Uncommon",
         "Type": "Relic"
     },
     "Paper Phrog": {
-        "Description": "Enemies with Vulnerable take 75% more damage rather than 50%.",
+        "Description": "Enemies with Vulnerable take 75% more damage rather than 50%. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Paper Phrog",
         "Rarity": "Uncommon",
         "Type": "Relic"
     },
     "Parasite": {
-        "Description": "Unplayable.If transformed or removed from your deck, lose 3 Max HP.",
+        "Description": "Unplayable. If transformed or removed from your deck, lose 3 Max HP. ",
         "Energy": "",
         "Name": "Parasite",
         "Rarity": "",
         "Type": "Curse"
     },
     "Peace Pipe": {
-        "Description": "You can now remove cards from your deck at Rest Sites.",
+        "Description": "You can now remove cards from your deck at Rest Sites. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Peace Pipe",
         "Rarity": "Rare",
         "Type": "Relic"
     },
     "Pear": {
-        "Description": "Raise your Max HP by 10.",
+        "Description": "Raise your Max HP by 10. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Pear",
         "Rarity": "Uncommon",
         "Type": "Relic"
     },
     "Pen Nib": {
-        "Description": "Every 10th Attack you play deals double damage.",
+        "Description": "Every 10th Attack you play deals double damage. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Pen Nib",
         "Rarity": "Common",
         "Type": "Relic"
     },
     "Perfected Strike": {
-        "Description": "Deal 6 damage. Deals an additional +2(3) damage for ALL of your cards containing \"Strike\".",
+        "Description": "Deal 6 damage. Deals an additional +2(3) damage for ALL of your cards containing \"Strike\". ",
         "Energy": "2",
         "Name": "Perfected Strike",
         "Rarity": "Common",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "Phantasmal Killer": {
-        "Description": "On your next turn, your Attack damage is doubled.",
+        "Description": "On your next turn, your Attack damage is doubled. ",
         "Energy": "2 (1)",
         "Name": "Phantasmal Killer",
         "Rarity": "Rare",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "Philosopher's Stone": {
-        "Description": "Gain 1 Energy at the start of each turn. ALL enemies start with 2 Strength.",
+        "Description": "Gain 1 Energy at the start of each turn. ALL enemies start with 2 Strength. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Philosopher's Stone",
         "Rarity": "Boss",
         "Type": "Relic"
     },
     "Piercing Wail": {
-        "Description": "ALL enemies lose 6 (8) Strength for 1 turn. Exhaust.",
+        "Description": "ALL enemies lose 6 (8) Strength for 1 turn. Exhaust. ",
         "Energy": "1",
         "Name": "Piercing Wail",
         "Rarity": "Common",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "Poisoned Stab": {
-        "Description": "Deal 5 (6) damage. Apply 3 (4) Poison.",
+        "Description": "Deal 5 (6) damage. Apply 3 (4) Poison. ",
         "Energy": "1",
         "Name": "Poisoned Stab",
         "Rarity": "Common",
-        "Type": "Attack"
+        "Type": "Silent Attack"
     },
     "Pommel Strike": {
-        "Description": "Deal 9(10) damage. Draw 1(2) card(s).",
+        "Description": "Deal 9(10) damage. Draw 1(2) card(s). ",
         "Energy": "1",
         "Name": "Pommel Strike",
         "Rarity": "Common",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "Power Through": {
-        "Description": "Add 2 Wounds to your hand. Gain 15(20) Block.",
+        "Description": "Add 2 Wounds to your hand. Gain 15(20) Block. ",
         "Energy": "1",
         "Name": "Power Through",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Ironclad Skill"
     },
     "Prayer Wheel": {
-        "Description": "Non-Boss chests now also contain cards.",
+        "Description": "Non-Boss chests now also contain cards. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Prayer Wheel",
         "Rarity": "Common",
         "Type": "Relic"
     },
     "Predator": {
-        "Description": "Deal 15 (20) damage. Draw 2 more cards next turn.",
+        "Description": "Deal 15 (20) damage. Draw 2 more cards next turn. ",
         "Energy": "2",
         "Name": "Predator",
         "Rarity": "Uncommon",
-        "Type": "Attack"
+        "Type": "Silent Attack"
     },
     "Prepared": {
-        "Description": "Draw 1 (2) card(s). Discard 1(2) card(s).",
+        "Description": "Draw 1 (2) card(s). Discard 1(2) card(s). ",
         "Energy": "0",
         "Name": "Prepared",
         "Rarity": "Common",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "Pummel": {
-        "Description": "Deal 2 damage 4(5) times. Exhaust.",
+        "Description": "Deal 2 damage 4(5) times. Exhaust. ",
         "Energy": "1",
         "Name": "Pummel",
         "Rarity": "Uncommon",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "Purity": {
-        "Description": "Choose and exhaust 3(5) cards in your hand. Exhaust.",
+        "Description": "Choose and exhaust 3(5) cards in your hand. Exhaust. ",
         "Energy": "0",
         "Name": "Purity",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Neutral Skill"
     },
     "Question Card": {
-        "Description": "On Card Reward screens, choose from 4 cards instead of 3.",
+        "Description": "On Card Reward screens, choose from 4 cards instead of 3. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Question Card",
         "Rarity": "Boss",
         "Type": "Relic"
     },
     "Quick Slash": {
-        "Description": "Deal 8 (12) damage. Draw 1 card.",
+        "Description": "Deal 8 (12) damage. Draw 1 card. ",
         "Energy": "1",
         "Name": "Quick Slash",
         "Rarity": "Common",
-        "Type": "Attack"
+        "Type": "Silent Attack"
     },
     "Rage": {
-        "Description": "Whenever you play an Attack this turn, gain 4(6) Block",
+        "Description": "Whenever you play an Attack this turn, gain 4(6) Block ",
         "Energy": "1",
         "Name": "Rage",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Ironclad Skill"
     },
     "Rampage": {
-        "Description": "Deal 8 damage. Every time this card is played, increase its damage by 4(8) for this combat.",
+        "Description": "Deal 8 damage. Every time this card is played, increase its damage by 4(8) for this combat. ",
         "Energy": "1",
         "Name": "Rampage",
         "Rarity": "Uncommon",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "Reaper": {
         "Description": "Deal 4(5) damage to ALL enemies. Heal for unBlocked damage. Exhaust.",
         "Energy": "2",
         "Name": "Reaper",
         "Rarity": "Rare",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "Reckless Charge": {
-        "Description": "Gain 1 Vulnerable. Deal 9(12) damage.",
+        "Description": "Gain 1 Vulnerable. Deal 9(12) damage. ",
         "Energy": "0",
         "Name": "Reckless Charge",
         "Rarity": "Uncommon",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "Red Mask": {
-        "Description": "At the start of each combat, apply 1 Weak to ALL enemies.",
+        "Description": "At the start of each combat, apply 1 Weak to ALL enemies. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Red Mask",
         "Rarity": "Event",
         "Type": "Relic"
     },
     "Red Skull": {
-        "Description": "While your HP is at or below 50%, you have 3 additional Strength.",
+        "Description": "While your HP is at or below 50%, you have 3 additional Strength. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Red Skull",
         "Rarity": "Rare",
         "Type": "Relic"
     },
     "Reflex": {
-        "Description": "Unplayable. If this card is discarded from your hand, draw 1 card.",
+        "Description": "Unplayable. If this card is discarded from your hand, draw 1 card. ",
         "Energy": "",
         "Name": "Reflex",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "Regal Pillow": {
-        "Description": "Heal an additional 15 HP when you rest.",
+        "Description": "Heal an additional 15 HP when you rest. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Regal Pillow",
         "Rarity": "Common",
         "Type": "Relic"
     },
     "Regret": {
-        "Description": "Unplayable.At the end of your turn, lose 1 HP for each card in your hand.",
+        "Description": "Unplayable. At the end of your turn, lose 1 HP for each card in your hand. ",
         "Energy": "",
         "Name": "Regret",
         "Rarity": "",
         "Type": "Curse"
     },
     "Riddle With Holes": {
-        "Description": "Deal 3 (4) damage 5 times.",
+        "Description": "Deal 3 (4) damage 5 times. ",
         "Energy": "2",
         "Name": "Riddle With Holes",
         "Rarity": "Uncommon",
-        "Type": "Attack"
+        "Type": "Silent Attack"
     },
     "Ring of the Snake": {
-        "Description": "At the start of each combat, draw 2 additional cards.",
+        "Description": "At the start of each combat, draw 2 additional cards. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Ring of the Snake",
         "Rarity": "Starter (Silent)",
         "Type": "Relic"
     },
     "Runic Cube": {
-        "Description": "Max HP is lowered by 20%. Whenever you lose HP, draw 1 card.",
+        "Description": "Max HP is lowered by 20%. Whenever you lose HP, draw 1 card. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Runic Cube",
         "Rarity": "Boss",
         "Type": "Relic"
     },
     "Runic Dodecahedron": {
-        "Description": "If your HP is full, gain 1 Energy at the start of each turn.",
+        "Description": "If your HP is full, gain 1 Energy at the start of each turn. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Runic Dodecahedron",
         "Rarity": "Uncommon",
         "Type": "Relic"
     },
     "Runic Dome": {
-        "Description": "Gain 1 Energy at the start of each turn. You can no longer see enemy Intents.",
+        "Description": "Gain 1 Energy at the start of each turn. You can no longer see enemy Intents. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Runic Dome",
         "Rarity": "Boss",
         "Type": "Relic"
     },
     "Runic Pyramid": {
-        "Description": "At the end of your turn, you no longer discard your hand. Draw 1 less card each turn.",
+        "Description": "At the end of your turn, you no longer discard your hand. Draw 1 less card each turn. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Runic Pyramid",
         "Rarity": "Boss",
         "Type": "Relic"
     },
     "Rupture": {
-        "Description": "Whenever you lose HP from a card, gain 1 Strength.",
+        "Description": "Whenever you lose HP from a card, gain 1 Strength. ",
         "Energy": "1(0)",
         "Name": "Rupture",
         "Rarity": "Uncommon",
-        "Type": "Power"
+        "Type": "Ironclad Power"
     },
     "Sadistic Nature": {
-        "Description": "Whenever you apply a Debuff to an enemy, they take 3(4) damage.",
+        "Description": "Whenever you apply a Debuff to an enemy, they take 3(4) damage. ",
         "Energy": "0",
         "Name": "Sadistic Nature",
         "Rarity": "Rare",
-        "Type": "Power"
+        "Type": "Neutral Power"
     },
     "Searing Blow": {
-        "Description": "Deal 12(16+) damage. Can be upgraded any number of times.",
+        "Description": "Deal 12(16+) damage. Can be upgraded any number of times. ",
         "Energy": "2",
         "Name": "Searing Blow",
         "Rarity": "Uncommon",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "Second Wind": {
-        "Description": "Exhaust all non-Attack cards in your hand and gain 5(7) Block for each.",
+        "Description": "Exhaust all non-Attack cards in your hand and gain 5(7) Block for each. ",
         "Energy": "1",
         "Name": "Second Wind",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Ironclad Skill"
     },
     "Secret Technique": {
-        "Description": "Choose a Skill from your draw pile and place it into your hand. Exhaust(Don't Exhaust)",
+        "Description": "Choose a Skill from your draw pile and place it into your hand. Exhaust(Don't Exhaust) ",
         "Energy": "0",
         "Name": "Secret Technique",
         "Rarity": "Rare",
-        "Type": "Skill"
+        "Type": "Neutral Skill"
     },
     "Secret Weapon": {
-        "Description": "Choose an Attack from your draw pile and place it into your hand. Exhaust(Don't Exhaust)",
+        "Description": "Choose an Attack from your draw pile and place it into your hand. Exhaust(Don't Exhaust) ",
         "Energy": "0",
         "Name": "Secret Weapon",
         "Rarity": "Rare",
-        "Type": "Skill"
+        "Type": "Neutral Skill"
     },
     "Seeing Red": {
-        "Description": "Gain 2 energy. Exhaust.",
+        "Description": "Gain 2 energy. Exhaust. ",
         "Energy": "1(0)",
         "Name": "Seeing Red",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Ironclad Skill"
     },
     "Self-Forming Clay": {
-        "Description": "Whenever you lose HP in combat, gain 3 Block next turn.",
+        "Description": "Whenever you lose HP in combat, gain 3 Block next turn. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Self-Forming Clay",
         "Rarity": "Uncommon",
         "Type": "Relic"
     },
     "Sentinel": {
-        "Description": "Gain 5(8) Block. If this card is Exhausted, gain 2(3) energy.",
+        "Description": "Gain 5(8) Block. If this card is Exhausted, gain 2(3) energy. ",
         "Energy": "1",
         "Name": "Sentinel",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Ironclad Skill"
     },
     "Setup": {
-        "Description": "Place a card in your hand on top of your draw pile. It cost 0 until it is played.",
-        "Energy": "1",
+        "Description": "Place a card in your hand on top of your draw pile. It cost 0 until it is played. ",
+        "Energy": "1 (0)",
         "Name": "Setup",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "Sever Soul": {
-        "Description": "Exhaust all non-Attack cards in your hand. Deal 16(20) damage.",
+        "Description": "Exhaust all non-Attack cards in your hand. Deal 16(20) damage. ",
         "Energy": "2",
         "Name": "Sever Soul",
         "Rarity": "Uncommon",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "Shiv": {
-        "Description": "Deal 4 damage. Exhaust. ''(Obtained from the effects of various cards.)''",
+        "Description": "Deal 4 damage.  Exhaust.   ''(Obtained from the effects of various cards.)'' ",
         "Energy": "0",
         "Name": "Shiv",
         "Rarity": "Common",
-        "Type": "Attack"
+        "Type": "Neutral Attack"
     },
     "Shockwave": {
-        "Description": "Apply 3(5) Weak and Vulnerable to ALL enemies.",
+        "Description": "Apply 3(5) Weak and Vulnerable to ALL enemies. ",
         "Energy": "2",
         "Name": "Shockwave",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Ironclad Skill"
     },
     "Shovel": {
-        "Description": "You can now Dig for loot at Rest Sites.",
+        "Description": "You can now Dig for loot at Rest Sites. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Shovel",
         "Rarity": "Rare",
         "Type": "Relic"
     },
     "Shrug it Off": {
-        "Description": "Gain 8(11) Block. Draw 1 card.",
+        "Description": "Gain 8(11) Block. Draw 1 card. ",
         "Energy": "1",
         "Name": "Shrug it Off",
         "Rarity": "Common",
-        "Type": "Skill"
+        "Type": "Ironclad Skill"
     },
     "Shuriken": {
-        "Description": "Every time you play 3 Attacks in a single turn, gain 1 Strength.",
+        "Description": "Every time you play 3 Attacks in a single turn, gain 1 Strength. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Shuriken",
         "Rarity": "Uncommon",
         "Type": "Relic"
     },
     "Singing Bowl": {
-        "Description": "Whenever you skip a card reward, increase your Max HP by 2.",
+        "Description": "Whenever you skip a card reward, increase your Max HP by 2. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Singing Bowl",
         "Rarity": "Common",
         "Type": "Relic"
     },
     "Skewer": {
-        "Description": "Spend all Energy. Deal 7 (10) damage X times.",
+        "Description": "Spend all Energy. Deal 7 (10) damage X times. ",
         "Energy": "X",
         "Name": "Skewer",
         "Rarity": "Uncommon",
-        "Type": "Attack"
+        "Type": "Silent Attack"
     },
     "Slice": {
-        "Description": "Deal 5 (8) damage.",
+        "Description": "Deal 5 (8) damage. ",
         "Energy": "0",
         "Name": "Slice",
         "Rarity": "Common",
-        "Type": "Attack"
+        "Type": "Silent Attack"
     },
     "Smiling Mask": {
-        "Description": "The Merchant|merchant's card removal service now always costs 50 Gold.",
+        "Description": "The Merchant|merchant's card removal service now always costs 50 Gold. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Smiling Mask",
         "Rarity": "Uncommon",
         "Type": "Relic"
     },
     "Snecko Eye": {
-        "Description": "Draw 2 additional cards each turn. Start each combat Confused.",
+        "Description": "Draw 2 additional cards each turn. Start each combat Confused. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Snecko Eye",
         "Rarity": "Boss",
         "Type": "Relic"
     },
     "Snecko Skull": {
-        "Description": "Whenever you apply Poison, apply an additional 1 Poison.",
+        "Description": "Whenever you apply Poison, apply an additional 1 Poison. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Snecko Skull",
         "Rarity": "Common (Silent)",
         "Type": "Relic"
     },
     "Sozu": {
-        "Description": "Gain 1 Energy at the start of each turn. You can no longer use potions.",
+        "Description": "Gain 1 Energy at the start of each turn. You can no longer use potions. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Sozu",
         "Rarity": "Boss",
         "Type": "Relic"
     },
     "Spirit Poop": {
-        "Description": "It's unpleasant.",
+        "Description": "It's unpleasant. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Spirit Poop",
         "Rarity": "Event",
         "Type": "Relic"
     },
     "Spot Weakness": {
-        "Description": "If an enemy intends to attack, gain 3(4) Strength.",
+        "Description": "If an enemy intends to attack, gain 3(4) Strength. ",
         "Energy": "1",
         "Name": "Spot Weakness",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Ironclad Skill"
     },
     "Storm of Steel": {
-        "Description": "Discard your hand. Add 1 (Upgraded) Shiv to your hand for each card discarded.",
+        "Description": "Discard your hand. Add 1 (Upgraded) Shiv to your hand for each card discarded. ",
         "Energy": "2",
         "Name": "Storm of Steel",
         "Rarity": "Rare",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "Strange Spoon": {
-        "Description": "Cards which Exhaust when played will instead discard 50% of the time.",
+        "Description": "Cards which Exhaust when played will instead discard 50% of the time. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Strange Spoon",
         "Rarity": "Shop",
         "Type": "Relic"
     },
     "Strawberry": {
-        "Description": "Raise your Max HP by 7.",
+        "Description": "Raise your Max HP by 7. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Strawberry",
         "Rarity": "Common",
         "Type": "Relic"
     },
     "Strike": {
-        "Description": "Deal 6(9) damage.",
+        "Description": "Deal 6(9) damage. ",
         "Energy": "1",
         "Name": "Strike",
         "Rarity": "Basic",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "Sucker Punch": {
-        "Description": "Deal 7 (9) damage. Apply 1 (2) Weak.",
+        "Description": "Deal 7 (9) damage. Apply 1 (2) Weak. ",
         "Energy": "1",
         "Name": "Sucker Punch",
         "Rarity": "Common",
-        "Type": "Attack"
+        "Type": "Silent Attack"
     },
     "Sundial": {
-        "Description": "Every 3 times you shuffle your deck, gain 2 Energy.",
+        "Description": "Every 3 times you shuffle your deck, gain 2 Energy. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Sundial",
         "Rarity": "Rare",
         "Type": "Relic"
     },
     "Survivor": {
-        "Description": "Gain 8(11) Block. Discard a card.",
+        "Description": "Gain 8(11) Block. Discard a card. ",
         "Energy": "1",
         "Name": "Survivor",
         "Rarity": "Common",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "Swift Strike": {
-        "Description": "Deal 5 damage.",
+        "Description": "Deal 5 damage. ",
         "Energy": "0",
         "Name": "Swift Strike",
         "Rarity": "Uncommon",
-        "Type": "Attack"
+        "Type": "Neutral Attack"
     },
     "Sword Boomerang": {
-        "Description": "Deal 3 damage to a random enemy 3(4) times.",
+        "Description": "Deal 3 damage to a random enemy 3(4) times. ",
         "Energy": "1",
         "Name": "Sword Boomerang",
         "Rarity": "Common",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "Tactician": {
-        "Description": "Unplayable. If this card is discarded from your hand, gain 1 Energy.",
+        "Description": "Unplayable. If this card is discarded from your hand, gain 1 Energy. ",
         "Energy": "",
         "Name": "Tactician",
         "Rarity": "Rare",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "Terror": {
-        "Description": "Apply 99 Vulnerable. Exhaust.",
+        "Description": "Apply 99 Vulnerable. Exhaust. ",
         "Energy": "1(0)",
         "Name": "Terror",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "The Courier": {
-        "Description": "The Merchant|merchant no longer runs out of cards, relics, or potions and his prices are reduced by 20%.",
+        "Description": "The Merchant|merchant no longer runs out of cards, relics, or potions and his prices are reduced by 20%. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "The Courier",
         "Rarity": "Uncommon",
         "Type": "Relic"
     },
     "The Specimen": {
-        "Description": "Whenever an enemy dies, transfer any Poison it has to a random enemy.",
+        "Description": "Whenever an enemy dies, transfer any Poison it has to a random enemy. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "The Specimen",
         "Rarity": "Boss (Silent)",
         "Type": "Relic"
     },
     "Thinking Ahead": {
-        "Description": "Draw 2 cards. Place a card from your hand on top of your draw pile. Exhaust.",
+        "Description": "Draw 2 cards. Place a card from your hand on top of your draw pile. Exhaust. ",
         "Energy": "0",
         "Name": "Thinking Ahead",
         "Rarity": "Rare",
-        "Type": "Skill"
+        "Type": "Neutral Skill"
     },
     "Thread and Needle": {
-        "Description": "At the start of each combat, gain 5 Plated Armor.",
+        "Description": "At the start of each combat, gain 5 Plated Armor. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Thread and Needle",
         "Rarity": "Rare",
         "Type": "Relic"
     },
     "Thunderclap": {
-        "Description": "Deal 4(7) damage and apply 1 Vulnerable to ALL enemies.",
+        "Description": "Deal 4(7) damage and apply 1 Vulnerable to ALL enemies. ",
         "Energy": "1",
         "Name": "Thunderclap",
         "Rarity": "Common",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "Tingsha": {
-        "Description": "Whenever you discard a card during your turn, deal 3 damage to a random enemy for each card discarded.",
+        "Description": "Whenever you discard a card during your turn, deal 3 damage to a random enemy for each card discarded. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Tingsha",
         "Rarity": "Rare",
         "Type": "Relic"
     },
     "Tiny Chest": {
-        "Description": "Gain 30 Gold. You are 10% more likely to find treasure in Map Locations|? rooms.",
+        "Description": "Gain 30 Gold. You are 10% more likely to find treasure in Map Locations|? rooms. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Tiny Chest",
         "Rarity": "Common",
         "Type": "Relic"
     },
     "Tiny House": {
-        "Description": "Obtain 1 potion. Gain 30 Gold. Raise your Max HP by 5. Obtain 1 card.",
+        "Description": "Obtain 1 potion. Gain 30 Gold. Raise your Max HP by 5. Obtain 1 card. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Tiny House",
         "Rarity": "Boss",
         "Type": "Relic"
     },
     "Toolbox": {
-        "Description": "At the start of each combat, add a random Neutral cards|colorless card to your hand.",
+        "Description": "At the start of each combat, add a random Neutral cards|colorless card to your hand. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Toolbox",
         "Rarity": "Uncommon",
         "Type": "Relic"
     },
     "Tools of the Trade": {
-        "Description": "At the start of your turn, draw 1 card and discard 1 card.",
+        "Description": "At the start of your turn, draw 1 card and discard 1 card. ",
         "Energy": "1(0)",
         "Name": "Tools of the Trade",
         "Rarity": "Rare",
-        "Type": "Power"
+        "Type": "Silent Power"
     },
     "Torii": {
-        "Description": "Whenever you would receive 5 or less unblocked Attack damage, reduce it to 1.",
+        "Description": "Whenever you would receive 5 or less unblocked Attack damage, reduce it to 1. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Torii",
         "Rarity": "Rare",
         "Type": "Relic"
     },
     "Tough Bandages": {
-        "Description": "Whenever you Discard|discard a card during your turn, gain 3 Block.",
+        "Description": "Whenever you Discard|discard a card during your turn, gain 3 Block. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Tough Bandages",
         "Rarity": "Uncommon",
         "Type": "Relic"
     },
     "Toxic Egg": {
-        "Description": "Upon pick up, choose and Upgrade a Skill.",
+        "Description": "Upon pick up, choose and Upgrade a Skill. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Toxic Egg",
         "Rarity": "Common",
         "Type": "Relic"
     },
     "Toy Ornithopter": {
         "Description": "Whenever you use a potion, heal 3 HP.",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Toy Ornithopter",
         "Rarity": "Shop",
         "Type": "Relic"
     },
@@ -1971,119 +1971,119 @@
         "Energy": "X",
         "Name": "Transmutation",
         "Rarity": "Rare",
-        "Type": "Skill"
+        "Type": "Neutral Skill"
     },
     "Trip": {
-        "Description": "Apply 2 Vulnerable. (to ALL enemies)",
+        "Description": "Apply 2 Vulnerable. (to ALL enemies) ",
         "Energy": "0",
         "Name": "Trip",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Neutral Skill"
     },
     "True Grit": {
-        "Description": "Gain 7(9) Block. Exhaust a random(not random) card from your hand.",
+        "Description": "Gain 7(9) Block. Exhaust a random(not random) card from your hand. ",
         "Energy": "1",
         "Name": "True Grit",
         "Rarity": "Common",
-        "Type": "Skill"
+        "Type": "Ironclad Skill"
     },
     "Twin Strike": {
-        "Description": "Deal 5(7) damage twice.",
+        "Description": "Deal 5(7) damage twice. ",
         "Energy": "1",
         "Name": "Twin Strike",
         "Rarity": "Common",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "Unceasing Top": {
-        "Description": "Whenever you have no cards in hand during your turn, draw a card.",
+        "Description": "Whenever you have no cards in hand during your turn, draw a card. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Unceasing Top",
         "Rarity": "Rare",
         "Type": "Relic"
     },
     "Underhanded Strike": {
-        "Description": "Unplayable. If this card is discarded from your hand, deal 7 (10) damage to a random enemy.",
+        "Description": "Unplayable. If this card is discarded from your hand, deal 7 (10) damage to a random enemy. ",
         "Energy": "",
         "Name": "Underhanded Strike",
         "Rarity": "Common",
-        "Type": "Attack"
+        "Type": "Silent Attack"
     },
     "Unload": {
-        "Description": "Deal 12 (16) damage. Discard ALL non-Attack cards.",
+        "Description": "Deal 12 (16) damage. Discard ALL non-Attack cards. ",
         "Energy": "1",
         "Name": "Unload",
         "Rarity": "Rare",
-        "Type": "Attack"
+        "Type": "Silent Attack"
     },
     "Uppercut": {
-        "Description": "Deal 13 damage. Apply 1(2) Weak. Apply 1(2) Vulnerable.",
+        "Description": "Deal 13 damage. Apply 1(2) Weak. Apply 1(2) Vulnerable. ",
         "Energy": "2",
         "Name": "Uppercut",
         "Rarity": "Uncommon",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "Vajra": {
-        "Description": "At the start of each combat, gain 1 Strength.",
+        "Description": "At the start of each combat, gain 1 Strength. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Vajra",
         "Rarity": "Common",
         "Type": "Relic"
     },
     "Velvet Choker": {
-        "Description": "Gain 1 Energy at the start of each turn. You cannot play more than 6 cards per turn.",
+        "Description": "Gain 1 Energy at the start of each turn. You cannot play more than 6 cards per turn. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Velvet Choker",
         "Rarity": "Boss",
         "Type": "Relic"
     },
     "War Paint": {
-        "Description": "Upon pick up, Upgrade 2 random Skills.",
+        "Description": "Upon pick up, Upgrade 2 random Skills. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "War Paint",
         "Rarity": "Common",
         "Type": "Relic"
     },
     "Warcry": {
-        "Description": "Draw 2 cards. Place a card from your hand on top of your draw pile. Exhaust.",
+        "Description": "Draw 2 cards. Place a card from your hand on top of your draw pile. Exhaust. ",
         "Energy": "1(0)",
         "Name": "Warcry",
         "Rarity": "Common",
-        "Type": "Skill"
+        "Type": "Ironclad Skill"
     },
     "Well-Laid Plans": {
-        "Description": "At the end of your turn, Retain up to 1 card.",
+        "Description": "At the end of your turn, Retain up to 1 card. ",
         "Energy": "0",
         "Name": "Well-Laid Plans",
         "Rarity": "Uncommon",
-        "Type": "Skill"
+        "Type": "Silent Skill"
     },
     "Whetstone": {
-        "Description": "Upon pick up, Upgrade 2 random Attacks.",
+        "Description": "Upon pick up, Upgrade 2 random Attacks. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "Whetstone",
         "Rarity": "Common",
         "Type": "Relic"
     },
     "Whirlwind": {
-        "Description": "Spend all energy. Deal 5(8) damage to ALL enemies X times.",
+        "Description": "Spend all energy. Deal 5(8) damage to ALL enemies X times. ",
         "Energy": "X",
         "Name": "Whirlwind",
         "Rarity": "Uncommon",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "White Beast Statue": {
-        "Description": "Potions always drop after combat.",
+        "Description": "Potions always drop after combat. ",
         "Energy": "",
-        "Name": "File:Wound.png|thumb|280x280px",
+        "Name": "White Beast Statue",
         "Rarity": "Boss",
         "Type": "Relic"
     },
     "Wild Strike": {
-        "Description": "Deal 12(17) damage. Shuffle a Wound into your draw pile.",
+        "Description": "Deal 12(17) damage. Shuffle a Wound into your draw pile. ",
         "Energy": "1",
         "Name": "Wild Strike",
         "Rarity": "Common",
-        "Type": "Attack"
+        "Type": "Ironclad Attack"
     },
     "Wound": {
         "Description": "Unplayable.",
@@ -2097,10 +2097,10 @@
         "Energy": "3",
         "Name": "Wraith Form",
         "Rarity": "Rare",
-        "Type": "Power"
+        "Type": "Silent Power"
     },
     "Writhe": {
-        "Description": "Unplayable.Innate.",
+        "Description": "Unplayable. Innate.",
         "Energy": "",
         "Name": "Writhe",
         "Rarity": "",

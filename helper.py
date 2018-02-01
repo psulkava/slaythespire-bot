@@ -62,7 +62,6 @@ class HSHelper:
 
     def parseText(self, text):
         """returns found cards and answer text"""
-        print(text)
         text = HSHelper.removeQuotes(text)
         cards = self.getCards(text)
         answer = ''

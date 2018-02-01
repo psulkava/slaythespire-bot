@@ -12,13 +12,12 @@ import formatter
 
 
 # answer pms of the same user only every x seconds
-PM_RATE_LIMIT = 30
+PM_RATE_LIMIT = 60
 
 
 def answerComment(r, comment, answeredDB, helper):
     """read and answer a comment"""
-    print(comment)
-    log.info(comment)
+
     cards, answer = helper.parseText(comment.body)
 
     if cards and answer:
@@ -186,6 +185,7 @@ def main():
     # load card DB
     url = 'https://raw.githubusercontent.com/psulkava/slaythespire-bot/master/data/tempinfo.json'
     cardDB = CardDB(tempJSONUrl=url)
+    
     # init hs helper for hearthstone stuff
     helper = HSHelper(cardDB)
     # pm spam filter cache

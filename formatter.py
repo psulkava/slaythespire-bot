@@ -6,20 +6,12 @@ import urllib
 import credentials
 
 
-atk_dur_template = " {atk}/{dur}"
-subtype_template = " {subType}"
-desc_template = " - {desc}"
-extDesc_template = "[{text}]  \n"
-#card_template = ("* **[{name}]({cdn})** {class} {type} {rarity} {set} {std}"
-#                    "^[HP](http://www.hearthpwn.com/cards/{hpwn}), "
-#                    "^[HH](http://www.hearthhead.com/cards/{head}), "
-#                    "^[Wiki](http://hearthstone.gamepedia.com/{wiki})  \n"
-#                "{cost} Mana{atk_dur}{subtype}{desc}  \n{extDesc}")
-card_template = ("{name} {rarity} {type} {description}")
-signature = ("\n^(Call/)^[PM](https://www.reddit.com/message/compose/?to={bot})"
-            " ^( me with up to 7 [[cardname]]. )"
-            "^[About.](https://www.reddit.com/message/compose/"
-            "?to={bot}&message=Tell%20me%20more%20[[info]]&subject=hi)") \
+card_template = ("{name} - {rarity} - {type}\n\nEnergy: {energy}\n\n{description}")
+curse_status_template = ("{name} - {type}\n\n{description}")
+relic_template = ("{name} - {rarity} - {type}\n\n{description}")
+signature = ("\n\n^[PM](https://www.reddit.com/message/compose/?to={bot})"
+            " ^( me with up to 7 [[cardname]] or [[relicname]]. )"
+            "^[About.](https://github.com/psulkava/slaythespire-bot)") \
             .format(bot=credentials.username)
 
 duplicate_header_templ = ("You've posted a comment reply in [{title}]({url}) "
@@ -36,8 +28,12 @@ def createCardText(card):
         'energy' : card['Energy'],
         'description' : card['Description'],
     }
-
-    return card_template.format(**local_card)
+    if card['Rarity'] == "":
+        return curse_status_template.format(**local_card)
+    elif card['Energy'] == "":
+        return relic_template.format(**local_card)
+    else:
+        return card_template.format(**local_card)
 
 
 def createAnswer(cardDB, cards):
