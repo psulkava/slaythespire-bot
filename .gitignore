@@ -5,6 +5,7 @@
 credentials.py
 praw.ini
 *.txt
+!requirements.txt
 *.lock
 # Byte-compiled / optimized / DLL files
 __pycache__/
