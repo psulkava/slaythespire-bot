@@ -98,8 +98,8 @@
         "Type": "Silent Skill"
     },
     "Backstab": {
-        "Description": "Deal 12( 16) damage. Innate. Exhaust. ",
-        "Energy": "1",
+        "Description": "Deal 11( 15) damage. Innate. Exhaust. ",
+        "Energy": "0",
         "Name": "Backstab",
         "Rarity": "Uncommon",
         "Type": "Silent Attack"
@@ -172,7 +172,7 @@
         "Energy": "1",
         "Name": "Bite",
         "Rarity": "Common",
-        "Type": "Silent Attack"
+        "Type": "Neutral Attack"
     },
     "Black Blood": {
         "Description": "Replaces Burning Blood. At the end of combat, heal 10 HP. ",
@@ -833,10 +833,10 @@
         "Type": "Silent Power"
     },
     "Frozen Egg": {
-        "Description": "Upon pick up, choose and Upgrade a Power. ",
+        "Description": "Whenever you add a Power card to your deck, it is Upgraded. ",
         "Energy": "",
         "Name": "Frozen Egg",
-        "Rarity": "Common",
+        "Rarity": "Uncommon",
         "Type": "Relic"
     },
     "Frozen Eye": {
@@ -1190,10 +1190,10 @@
         "Type": "Neutral Attack"
     },
     "Molten Egg": {
-        "Description": "Upon pick up, choose and Upgrade an Attack. ",
+        "Description": "Whenever you add an Attack card to your deck, it is Upgraded. ",
         "Energy": "",
         "Name": "Molten Egg",
-        "Rarity": "Common",
+        "Rarity": "Uncommon",
         "Type": "Relic"
     },
     "Mummified Hand": {
@@ -1953,10 +1953,10 @@
         "Type": "Relic"
     },
     "Toxic Egg": {
-        "Description": "Upon pick up, choose and Upgrade a Skill. ",
+        "Description": "Whenever you add a Skill card to your deck, it is Upgraded. ",
         "Energy": "",
         "Name": "Toxic Egg",
-        "Rarity": "Common",
+        "Rarity": "Uncommon",
         "Type": "Relic"
     },
     "Toy Ornithopter": {
@@ -2044,8 +2044,8 @@
         "Type": "Relic"
     },
     "Warcry": {
-        "Description": "Draw 2 cards. Place a card from your hand on top of your draw pile. Exhaust. ",
-        "Energy": "1(0)",
+        "Description": "Draw 1(2) cards. Place a card from your hand on top of your draw pile. Exhaust. ",
+        "Energy": "0",
         "Name": "Warcry",
         "Rarity": "Common",
         "Type": "Ironclad Skill"
