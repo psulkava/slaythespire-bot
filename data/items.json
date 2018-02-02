@@ -749,7 +749,7 @@
         "Type": "Ironclad Skill"
     },
     "Feed": {
-        "Description": "Deal 10(12) damage. If this kills the enemy, gain 3(4) permanent Max HP. ",
+        "Description": "Deal 10(12) damage. If this kills the enemy, gain 3(4) permanent Max HP. Exhaust.",
         "Energy": "1",
         "Name": "Feed",
         "Rarity": "Rare",
