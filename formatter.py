@@ -9,11 +9,11 @@ import credentials
 card_template = ("**{name}** - {rarity} - {type}\n\nEnergy: {energy}\n\n{description}\n\n")
 curse_status_template = ("**{name}** - {type}\n\n{description}\n\n")
 relic_template = ("**{name}** - {rarity} - {type}\n\n{description}\n\n")
-signature = ("\n\n^[PM](https://www.reddit.com/message/compose/?to={bot})"
+signature = ("\n\n\n^[PM](https://www.reddit.com/message/compose/?to={bot})"
             " ^( me with up to 7 [[cardname]] or [[relicname]]. )"
             "^[About.](https://github.com/psulkava/slaythespire-bot)\n\n"
-            "^(Did I mess up? [PM](https://www.reddit.com/message/compose/?to=pts37)"
-            " my creator with issues to help them get fixed!)") \
+            "^(Did I mess up? )^[PM](https://www.reddit.com/message/compose/?to=pts37)"
+            "^( my creator with issues to help them get fixed!)") \
             .format(bot=credentials.username)
 
 duplicate_header_templ = ("You've posted a comment reply in [{title}]({url}) "
