@@ -279,10 +279,10 @@
         "Rarity": "Uncommon",
         "Type": "Relic"
     },
-    "Brazing Flask|Bouncing Flask": {
+    "Bouncing Flask": {
         "Description": "Apply 3 poison to a random enemy 3 (4) times. ",
         "Energy": "2",
-        "Name": "Brazing Flask|Bouncing Flask",
+        "Name": "Bouncing Flask",
         "Rarity": "Uncommon",
         "Type": "Silent Skill"
     },
@@ -427,7 +427,7 @@
         "Type": "Ironclad Attack"
     },
     "Cloak And Dagger": {
-        "Description": "Gain 6 Block|Bblock|lock. Add 1 Shiv (2 Shivs) to your hand. ",
+        "Description": "Gain 6 Block. Add 1 Shiv (2 Shivs) to your hand. ",
         "Energy": "1",
         "Name": "Cloak And Dagger",
         "Rarity": "Common",
@@ -797,10 +797,10 @@
         "Rarity": "Uncommon",
         "Type": "Ironclad Skill"
     },
-    "Flash of Steal|Flash of Steel": {
+    "Flash of Steel": {
         "Description": "Deal 3 damage.  Draw 1 card. ",
         "Energy": "0",
-        "Name": "Flash of Steal|Flash of Steel",
+        "Name": "Flash of Steel",
         "Rarity": "Uncommon",
         "Type": "Neutral Attack"
     },
@@ -881,10 +881,10 @@
         "Rarity": "Rare",
         "Type": "Silent Attack"
     },
-    "Golden Idol (Relic)|Golden Idol": {
+    "Golden Idol": {
         "Description": "Enemies drop 25% more Gold. ",
         "Energy": "",
-        "Name": "Golden Idol (Relic)|Golden Idol",
+        "Name": "Golden Idol",
         "Rarity": "Event",
         "Type": "Relic"
     },
@@ -1014,10 +1014,10 @@
         "Rarity": "Common",
         "Type": "Ironclad Attack"
     },
-    "J.A.X.|J.A.X": {
+    "J.A.X.": {
         "Description": "Lose 3 HP.  Gain 2(3) strength.  Exhaust.   ''(Obtained from event.)'' ",
         "Energy": "0",
-        "Name": "J.A.X.|J.A.X",
+        "Name": "J.A.X.",
         "Rarity": "Common",
         "Type": "Neutral Skill"
     },
@@ -1141,7 +1141,7 @@
         "Type": "Silent Attack"
     },
     "Matryoshka": {
-        "Description": "The next 2 Chest|chests you open contain 2 Relics. (Excludes boss chests) ",
+        "Description": "The next 2 chests you open contain 2 Relics. (Excludes boss chests) ",
         "Energy": "",
         "Name": "Matryoshka",
         "Rarity": "Uncommon",
@@ -1155,7 +1155,7 @@
         "Type": "Relic"
     },
     "Medical Kit": {
-        "Description": "Statuses|Status cards can now be played. Playing a Status will Exhaust the card. ",
+        "Description": "Status cards can now be played. Playing a Status will Exhaust the card. ",
         "Energy": "",
         "Name": "Medical Kit",
         "Rarity": "Shop",
@@ -1365,7 +1365,7 @@
         "Type": "Relic"
     },
     "Pantograph": {
-        "Description": "At the start of Bosses|boss combats, heal 25 HP. ",
+        "Description": "At the start of boss combats, heal 25 HP. ",
         "Energy": "",
         "Name": "Pantograph",
         "Rarity": "Uncommon",
@@ -1750,7 +1750,7 @@
         "Type": "Silent Attack"
     },
     "Smiling Mask": {
-        "Description": "The Merchant|merchant's card removal service now always costs 50 Gold. ",
+        "Description": "The merchant's card removal service now always costs 50 Gold. ",
         "Energy": "",
         "Name": "Smiling Mask",
         "Rarity": "Uncommon",
@@ -1869,7 +1869,7 @@
         "Type": "Silent Skill"
     },
     "The Courier": {
-        "Description": "The Merchant|merchant no longer runs out of cards, relics, or potions and his prices are reduced by 20%. ",
+        "Description": "The merchant no longer runs out of cards, relics, or potions and his prices are reduced by 20%. ",
         "Energy": "",
         "Name": "The Courier",
         "Rarity": "Uncommon",
@@ -1911,7 +1911,7 @@
         "Type": "Relic"
     },
     "Tiny Chest": {
-        "Description": "Gain 30 Gold. You are 10% more likely to find treasure in Map Locations|? rooms. ",
+        "Description": "Gain 30 Gold. You are 10% more likely to find treasure in ? rooms. ",
         "Energy": "",
         "Name": "Tiny Chest",
         "Rarity": "Common",
@@ -1925,7 +1925,7 @@
         "Type": "Relic"
     },
     "Toolbox": {
-        "Description": "At the start of each combat, add a random Neutral cards|colorless card to your hand. ",
+        "Description": "At the start of each combat, add a random colorless card to your hand. ",
         "Energy": "",
         "Name": "Toolbox",
         "Rarity": "Uncommon",
@@ -1946,7 +1946,7 @@
         "Type": "Relic"
     },
     "Tough Bandages": {
-        "Description": "Whenever you Discard|discard a card during your turn, gain 3 Block. ",
+        "Description": "Whenever you discard a card during your turn, gain 3 Block. ",
         "Energy": "",
         "Name": "Tough Bandages",
         "Rarity": "Uncommon",
