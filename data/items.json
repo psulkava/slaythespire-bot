@@ -665,7 +665,7 @@
         "Type": "Relic"
     },
     "Dual Wield": {
-        "Description": "Create a(2) copy(s) of a card in your hand. ",
+        "Description": "Create a(2) copy(s) of an Attack or Power card in your hand. ",
         "Energy": "1",
         "Name": "Dual Wield",
         "Rarity": "Common",
@@ -1855,7 +1855,7 @@
         "Type": "Ironclad Attack"
     },
     "Tactician": {
-        "Description": "Unplayable. If this card is discarded from your hand, gain 1 Energy. ",
+        "Description": "Unplayable. If this card is discarded from your hand, gain 1(2) Energy. ",
         "Energy": "",
         "Name": "Tactician",
         "Rarity": "Rare",
