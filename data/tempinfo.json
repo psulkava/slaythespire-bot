@@ -1,0 +1,9 @@
+{
+  "Expertise": {
+    "Name": "Expertise",
+    "Energy": "1",
+    "Type": "Silent Skill",
+    "Rarity": "Uncommon",
+    "Description": "Draw cards until you have 6 (8) in your hand."
+  }
+}
