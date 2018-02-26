@@ -196,7 +196,7 @@
         "Type": "Silent Skill"
     },
     "Blind": {
-        "Description": "Apply 2 Weak ",
+        "Description": "Apply 2 Weak (to ALL enemies).",
         "Energy": "0",
         "Name": "Blind",
         "Rarity": "Uncommon",
@@ -211,7 +211,7 @@
     },
     "Blood for Blood": {
         "Description": "Cost 1 less energy for each time you lose HP in combat. Deal 16(18) damage. ",
-        "Energy": "4",
+        "Energy": "4(3)",
         "Name": "Blood for Blood",
         "Rarity": "Uncommon",
         "Type": "Ironclad Attack"
@@ -301,7 +301,7 @@
         "Type": "Ironclad Power"
     },
     "Bullet Time": {
-        "Description": "You cannot draw any cads this turn. Reduce the cost of cards in your hand to 0 this turn. ",
+        "Description": "You cannot draw any cards this turn. Reduce the cost of cards in your hand to 0 this turn. ",
         "Energy": "3 (2)",
         "Name": "Bullet Time",
         "Rarity": "Rare",
@@ -458,7 +458,7 @@
         "Description": "Discard 3 (2) cards. Gain 2 Energy. ",
         "Energy": "0",
         "Name": "Concentrate",
-        "Rarity": "Unommon",
+        "Rarity": "Uncommon",
         "Type": "Silent Skill"
     },
     "Corpse Explosion": {
@@ -747,6 +747,13 @@
         "Name": "Exhume",
         "Rarity": "Rare",
         "Type": "Ironclad Skill"
+    },
+    "Expertise": {
+        "Description": "Draw cards until you have 6 (8) in hand. ",
+        "Energy": "1",
+        "Name": "Expertise",
+        "Rarity": "Uncommon",
+        "Type": "Silent Skill"
     },
     "Feed": {
         "Description": "Deal 10(12) damage. If this kills the enemy, gain 3(4) permanent Max HP. Exhaust.",
@@ -1554,7 +1561,7 @@
         "Type": "Relic"
     },
     "Reflex": {
-        "Description": "Unplayable. If this card is discarded from your hand, draw 1 card. ",
+        "Description": "Unplayable. If this card is discarded from your hand, draw 1 (2) cards. ",
         "Energy": "",
         "Name": "Reflex",
         "Rarity": "Uncommon",
@@ -1589,7 +1596,7 @@
         "Type": "Relic"
     },
     "Runic Cube": {
-        "Description": "Max HP is lowered by 20%. Whenever you lose HP, draw 1 card. ",
+        "Description": "Whenever you lose HP, draw 1 card. ",
         "Energy": "",
         "Name": "Runic Cube",
         "Rarity": "Boss",
@@ -1771,7 +1778,7 @@
         "Type": "Relic"
     },
     "Sozu": {
-        "Description": "Gain 1 Energy at the start of each turn. You can no longer use potions. ",
+        "Description": "Gain 1 Energy at the start of each turn. You can no longer obtain potions. ",
         "Energy": "",
         "Name": "Sozu",
         "Rarity": "Boss",
@@ -1918,7 +1925,7 @@
         "Type": "Relic"
     },
     "Tiny House": {
-        "Description": "Obtain 1 potion. Gain 30 Gold. Raise your Max HP by 5. Obtain 1 card. ",
+        "Description": "Obtain 1 potion. Gain 30 Gold. Raise your Max HP by 5. Obtain 1 card. Upgrade 1 random card.",
         "Energy": "",
         "Name": "Tiny House",
         "Rarity": "Boss",
