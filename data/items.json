@@ -329,7 +329,7 @@
         "Type": "Ironclad Skill"
     },
     "Burst": {
-        "Description": "This turn your next 1 Skill is (2 Skills are) played twice. ",
+        "Description": "This turn your next Skill is (2 Skills are) played twice. ",
         "Energy": "1",
         "Name": "Burst",
         "Rarity": "Rare",
@@ -623,7 +623,7 @@
         "Type": "Silent Skill"
     },
     "Double Tap": {
-        "Description": "This turn, your next (2) Attack(s) is played twice. ",
+        "Description": "This turn, your next Attack is (2 Attacks are) played twice. ",
         "Energy": "1",
         "Name": "Double Tap",
         "Rarity": "Rare",

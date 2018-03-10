@@ -12,7 +12,7 @@ import formatter
 
 
 # answer pms of the same user only every x seconds
-PM_RATE_LIMIT = 60
+PM_RATE_LIMIT = 30
 
 
 def answerComment(r, comment, answeredDB, helper):
