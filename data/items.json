@@ -119,7 +119,7 @@
         "Type": "Relic"
     },
     "Bandage Up": {
-        "Description": "Heal 4. Exhaust. ",
+        "Description": "Heal 4 (6) HP. Exhaust. ",
         "Energy": "0",
         "Name": "Bandage Up",
         "Rarity": "Uncommon",
