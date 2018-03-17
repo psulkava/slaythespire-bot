@@ -1190,7 +1190,7 @@
         "Type": "Ironclad Power"
     },
     "Mind Blast": {
-        "Description": "Deal damage equal to the number of cards in your draw pile. ",
+        "Description": "(Innate) Deal damage equal to the number of cards in your draw pile. ",
         "Energy": "0",
         "Name": "Mind Blast",
         "Rarity": "Uncommon",
