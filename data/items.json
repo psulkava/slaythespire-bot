@@ -35,7 +35,7 @@
         "Type": "Silent Power"
     },
     "All Out Attack": {
-        "Description": "Deal 10 (14) damage to ALL enemies. Draw 1 less card next turn. ",
+        "Description": "Deal 10 (14) damage to ALL enemies. Discard 1 card at random next turn. ",
         "Energy": "1",
         "Name": "All Out Attack",
         "Rarity": "Uncommon",
@@ -82,6 +82,13 @@
         "Name": "Art of War",
         "Rarity": "Common",
         "Type": "Relic"
+    },
+    "Ascender's Bane": {
+        "Description": "Unplayable. Cannot be removed from your deck. Ethereal.",
+        "Energy": "",
+        "Name": "Ascender's Bane",
+        "Rarity": "",
+        "Type": "Curse"
     },
     "Astrolabe": {
         "Description": "Upon pickup, choose and Transform 3 cards, then Upgrade them. ",
@@ -210,7 +217,7 @@
         "Type": "Relic"
     },
     "Blood for Blood": {
-        "Description": "Cost 1 less energy for each time you lose HP in combat. Deal 16(18) damage. ",
+        "Description": "Cost 1 less energy for each time you lose HP in combat. Deal 18(22) damage. ",
         "Energy": "4(3)",
         "Name": "Blood for Blood",
         "Rarity": "Uncommon",
@@ -364,7 +371,7 @@
         "Type": "Silent Power"
     },
     "Carnage": {
-        "Description": "Ethereal. Deal 18(26) damage. ",
+        "Description": "Ethereal. Deal 20(28) damage. ",
         "Energy": "2",
         "Name": "Carnage",
         "Rarity": "Uncommon",
@@ -546,7 +553,7 @@
         "Type": "Relic"
     },
     "Deadly Poison": {
-        "Description": "Apply 4 (6) Poison. ",
+        "Description": "Apply 5 (7) Poison. ",
         "Energy": "1",
         "Name": "Deadly Poison",
         "Rarity": "Common",
@@ -735,7 +742,7 @@
         "Type": "Silent Attack"
     },
     "Evolve": {
-        "Description": "Shuffle 2 Wounds into your draw pile. Whenever you draw a Wound, draw 1(2) card(s). ",
+        "Description": "Whenever you draw a Status card, draw 1(2) card(s). ",
         "Energy": "1",
         "Name": "Evolve",
         "Rarity": "Uncommon",
@@ -850,7 +857,7 @@
         "Description": "When viewing your Draw Pile, the cards are now shown in order. ",
         "Energy": "",
         "Name": "Frozen Eye",
-        "Rarity": "Rare",
+        "Rarity": "Shop",
         "Type": "Relic"
     },
     "Gambling Chip": {
@@ -861,7 +868,7 @@
         "Type": "Relic"
     },
     "Ghostly Armor": {
-        "Description": "Ethereal. Gain 10 Block.  ",
+        "Description": "Ethereal. Gain 10 (13) Block.  ",
         "Energy": "1",
         "Name": "Ghostly Armor",
         "Rarity": "Uncommon",
@@ -1508,7 +1515,7 @@
         "Description": "On Card Reward screens, choose from 4 cards instead of 3. ",
         "Energy": "",
         "Name": "Question Card",
-        "Rarity": "Boss",
+        "Rarity": "Uncommon",
         "Type": "Relic"
     },
     "Quick Slash": {
@@ -1519,8 +1526,8 @@
         "Type": "Silent Attack"
     },
     "Rage": {
-        "Description": "Whenever you play an Attack this turn, gain 4(6) Block ",
-        "Energy": "1",
+        "Description": "Whenever you play an Attack this turn, gain 3(6) Block ",
+        "Energy": "0",
         "Name": "Rage",
         "Rarity": "Uncommon",
         "Type": "Ironclad Skill"
@@ -1755,6 +1762,13 @@
         "Name": "Slice",
         "Rarity": "Common",
         "Type": "Silent Attack"
+    },
+    "Slimed": {
+        "Description": "Exhaust. ",
+        "Energy": "1",
+        "Name": "Slimed",
+        "Rarity": "",
+        "Type": "Status"
     },
     "Smiling Mask": {
         "Description": "The merchant's card removal service now always costs 50 Gold. ",
@@ -2009,8 +2023,8 @@
         "Type": "Relic"
     },
     "Underhanded Strike": {
-        "Description": "Unplayable. If this card is discarded from your hand, deal 7 (10) damage to a random enemy. ",
-        "Energy": "",
+        "Description": "Deal 8 damage. If you have discarded a card this turn, gain 2 Energy. ",
+        "Energy": "2",
         "Name": "Underhanded Strike",
         "Rarity": "Common",
         "Type": "Silent Attack"
@@ -2043,6 +2057,13 @@
         "Rarity": "Boss",
         "Type": "Relic"
     },
+    "Void": {
+        "Description": "Unplayable. When this card is drawn, lose 1 Energy. Ethereal. ",
+        "Energy": "",
+        "Name": "Void",
+        "Rarity": "",
+        "Type": "Status"
+    },
     "War Paint": {
         "Description": "Upon pick up, Upgrade 2 random Skills. ",
         "Energy": "",
@@ -2062,7 +2083,7 @@
         "Energy": "0",
         "Name": "Well-Laid Plans",
         "Rarity": "Uncommon",
-        "Type": "Silent Skill"
+        "Type": "Silent Power"
     },
     "Whetstone": {
         "Description": "Upon pick up, Upgrade 2 random Attacks. ",
