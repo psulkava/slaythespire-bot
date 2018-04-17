@@ -427,7 +427,7 @@
         "Type": "Ironclad Attack"
     },
     "Cleave": {
-        "Description": "Deal 7(10) damage to ALL enemies. ",
+        "Description": "Deal 8(11) damage to ALL enemies. ",
         "Energy": "1",
         "Name": "Cleave",
         "Rarity": "Common",
@@ -455,7 +455,7 @@
         "Type": "Curse"
     },
     "Combust": {
-        "Description": "At the end of your turn, lose 1 HP and deal 4(5) damage to ALL enemies. ",
+        "Description": "At the end of your turn, lose 1 HP and deal 5(7) damage to ALL enemies. ",
         "Energy": "1",
         "Name": "Combust",
         "Rarity": "Uncommon",
@@ -911,7 +911,7 @@
     },
     "Grand Finale": {
         "Description": "Can only be played if there are no cards in your draw pile. Deal 40 (50) damage to ALL enemies. ",
-        "Energy": "1",
+        "Energy": "0",
         "Name": "Grand Finale",
         "Rarity": "Rare",
         "Type": "Silent Attack"
@@ -973,7 +973,7 @@
         "Type": "Relic"
     },
     "Immolate": {
-        "Description": "Exhaust 1 card. If the chosen card was a Status or Curse, deal 10(15) damage to ALL enemies. ",
+        "Description": "Deal 18 damage to ALL enemies. Shuffle a Burn into your draw pile. ",
         "Energy": "1",
         "Name": "Immolate",
         "Rarity": "Rare",
@@ -1547,7 +1547,7 @@
         "Type": "Ironclad Attack"
     },
     "Reckless Charge": {
-        "Description": "Gain 1 Vulnerable. Deal 9(12) damage. ",
+        "Description": "Deal 7(11) damage. Shuffle a Dazed into your draw pile. ",
         "Energy": "0",
         "Name": "Reckless Charge",
         "Rarity": "Uncommon",
@@ -1900,7 +1900,7 @@
         "Description": "Whenever an enemy dies, transfer any Poison it has to a random enemy. ",
         "Energy": "",
         "Name": "The Specimen",
-        "Rarity": "Boss (Silent)",
+        "Rarity": "Rare (Silent)",
         "Type": "Relic"
     },
     "Thinking Ahead": {
@@ -2110,7 +2110,7 @@
         "Description": "Deal 12(17) damage. Shuffle a Wound into your draw pile. ",
         "Energy": "1",
         "Name": "Wild Strike",
-        "Rarity": "Common",
+        "Rarity": "Uncommon",
         "Type": "Ironclad Attack"
     },
     "Wound": {
@@ -2121,7 +2121,7 @@
         "Type": "Status"
     },
     "Wraith Form": {
-        "Description": "Whenever you play a Skill, deal 3 (5) damage to a random enemy.",
+        "Description": "Gain 3 Intangible. At the end of your turn, lose 1 Dexterity.",
         "Energy": "3",
         "Name": "Wraith Form",
         "Rarity": "Rare",
