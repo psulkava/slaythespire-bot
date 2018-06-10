@@ -36,6 +36,7 @@ def fixText(text):
         text = text.replace('[[Poison|Poisoned]]', 'Poisoned')
         text = text.replace('[[Ironclad]]', 'Ironclad')
         text = text.replace('[[Silent]]', 'Silent')
+        text = text.replace('[[Defect]]', 'Defect')
         text = text.replace('[[Map locations|? rooms]]', '? rooms')
         text = text.replace('[[Map Locations|? rooms]]', '? rooms')
         text = text.replace('[[Rest site|Rest Sites]]', 'Rest Sites')
@@ -60,6 +61,8 @@ def fixText(text):
 
     return text
 
+
+# Use https://slay-the-spire.wikia.com/api.php?action=query&list=allpages&aplimit=500 to find page ID for new cards
 def main():
     silent_cards = {}
     r = requests.get("https://slay-the-spire.wikia.com/api.php?action=query&format=json&prop=revisions&rvprop=content&pageids=88")
@@ -91,6 +94,21 @@ def main():
                 'Energy' : card_info[5],
                 'Description' : card_info[6].replace('\n', ' ')
         }
+    defect_cards = {}
+    r = requests.get("https://slay-the-spire.wikia.com/api.php?action=query&format=json&prop=revisions&rvprop=content&pageids=2145")
+    data = r.json()
+    content = fixText(data['query']['pages']['2145']['revisions'][0]['*'])
+    cards_info = content.split('|-')
+    cards_info = cards_info[2:]
+    for card in cards_info:
+        card_info = card.split('\n|')
+        defect_cards[card_info[1]] = {
+                'Name' : card_info[1],
+                'Rarity' : card_info[3],
+                'Type' : 'Defect ' + str(card_info[4]),
+                'Energy' : card_info[5],
+                'Description' : card_info[6].replace('\n', ' ')
+        }
     neutral_cards = {}
     r = requests.get("https://slay-the-spire.wikia.com/api.php?action=query&format=json&prop=revisions&rvprop=content&pageids=96")
     data = r.json()
@@ -100,7 +118,6 @@ def main():
     cards_info = cards_info[1:]
     for card in cards_info:
         card_info = card.split('\n|')
-        #print(card_info)
         neutral_cards[card_info[1]] = {
                 'Name' : card_info[1],
                 'Rarity' : card_info[3],
@@ -150,6 +167,7 @@ def main():
     
     all_items = silent_cards.copy()
     all_items.update(ironclad_cards)
+    all_items.update(defect_cards)
     all_items.update(neutral_cards)
     all_items.update(curse_cards)
     all_items.update(status_cards)
