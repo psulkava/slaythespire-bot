@@ -587,8 +587,8 @@
         "Rarity": "Unommon",
         "Type": "Silent Skill"
     },
-    "Conserve Battery": {
-        "Description": "Gain 8(11) Block. Energy is conserved for next turn. ",
+    "Charge Battery": {
+        "Description": "Gain 7(10) Block. Next turn, gain 1 Energy. ",
         "Energy": "1",
         "Name": "Conserve Battery",
         "Rarity": "Uncommon",
@@ -1449,7 +1449,7 @@
         "Type": "Neutral Skill"
     },
     "Masterful Stab": {
-        "Description": "Can only be played if there are no other cards in your hand. Deal 15 (20) damage. ",
+        "Description": "Can only be played if there are no other cards in your hand. Deal 16 (21) damage. ",
         "Energy": "0",
         "Name": "Masterful Stab",
         "Rarity": "Uncommon",
@@ -2030,7 +2030,7 @@
         "Type": "Relic"
     },
     "Runic Pyramid": {
-        "Description": "At the end of your turn, you no longer discard your hand. Draw 1 less card each turn. ",
+        "Description": "At the end of your turn, you no longer discard your hand. ",
         "Energy": "",
         "Name": "Runic Pyramid",
         "Rarity": "Boss",
