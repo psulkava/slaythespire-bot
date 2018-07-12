@@ -217,7 +217,7 @@
         "Type": "Defect Attack"
     },
     "Berserk": {
-        "Description": "If your HP is at or below 50%, gain 1 energy at the start of each turn. ",
+        "Description": "Gain 5 Vulnerable. Gain Energy at the start of each turn. ",
         "Energy": "1(0)",
         "Name": "Berserk",
         "Rarity": "Rare",
@@ -486,7 +486,7 @@
         "Description": "The first time you lose HP each combat, draw 3 cards. ",
         "Energy": "",
         "Name": "Centennial Puzzle",
-        "Rarity": "Uncommon",
+        "Rarity": "Common",
         "Type": "Relic"
     },
     "Champion Belt": {
@@ -609,7 +609,7 @@
         "Type": "Defect Skill"
     },
     "Corpse Explosion": {
-        "Description": "Enemy loses all Poison. Deal damage equal to twice (3 times) the amount lost to ALL enemies. ",
+        "Description": "Apply 6 Poison. When this enemy dies, deal damage to ALL enemies equal to its max HP. ",
         "Energy": "2",
         "Name": "Corpse Explosion",
         "Rarity": "Rare",
@@ -1512,8 +1512,8 @@
         "Type": "Defect Attack"
     },
     "Mind Blast": {
-        "Description": "(Innate). Deal damage equal to the number of cards in your draw pile. ",
-        "Energy": "0",
+        "Description": "Innate. Deal damage equal to the number of cards in your draw pile. ",
+        "Energy": "2(1)",
         "Name": "Mind Blast",
         "Rarity": "Uncommon",
         "Type": "Neutral Attack"
@@ -2453,7 +2453,7 @@
         "Description": "At the start of each combat, add a random colorless card to your hand. ",
         "Energy": "",
         "Name": "Toolbox",
-        "Rarity": "Uncommon",
+        "Rarity": "Shop",
         "Type": "Relic"
     },
     "Tools of the Trade": {
