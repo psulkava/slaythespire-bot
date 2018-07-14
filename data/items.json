@@ -1287,6 +1287,13 @@
         "Rarity": "",
         "Type": "Curse"
     },
+    "Inserter": {
+        "Description": "Every 2 turns, gain 1 Orb slot. ",
+        "Energy": "",
+        "Name": "Inserter",
+        "Rarity": "Boss\n(Defect)",
+        "Type": "Defect Relic"
+    },
     "Intimidate": {
         "Description": "Apply 1(2) Weak to ALL enemies. Exhaust. ",
         "Energy": "0",
