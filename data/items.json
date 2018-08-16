@@ -84,7 +84,7 @@
         "Type": "Relic"
     },
     "Anger": {
-        "Description": "Deal 5(7) damage. Add a copy of this card to your discard pile. ",
+        "Description": "Deal 6(8) damage. Add a copy of this card to your discard pile. ",
         "Energy": "0",
         "Name": "Anger",
         "Rarity": "Common",
@@ -161,7 +161,7 @@
         "Type": "Relic"
     },
     "Ball Lightning": {
-        "Description": "Deal 7(11) damage. Channel 1 Lightning. ",
+        "Description": "Deal 7(10) damage. Channel 1 Lightning. ",
         "Energy": "1",
         "Name": "Ball Lightning",
         "Rarity": "Common",
@@ -217,8 +217,8 @@
         "Type": "Defect Attack"
     },
     "Berserk": {
-        "Description": "Gain 5 Vulnerable. Gain Energy at the start of each turn. ",
-        "Energy": "1(0)",
+        "Description": "Gain 3(2) Vulnerable. Gain Energy at the start of each turn. ",
+        "Energy": "0",
         "Name": "Berserk",
         "Rarity": "Rare",
         "Type": "Ironclad Power"
@@ -262,7 +262,7 @@
         "Description": "Add 2 (3) Shivs to your hand. ",
         "Energy": "1",
         "Name": "Blade Dance",
-        "Rarity": "Uncommon",
+        "Rarity": "Common",
         "Type": "Silent Skill"
     },
     "Blind": {
@@ -584,7 +584,7 @@
         "Description": "Discard 3 (2) cards. Gain 2 Energy. ",
         "Energy": "0",
         "Name": "Concentrate",
-        "Rarity": "Unommon",
+        "Rarity": "Uncommon",
         "Type": "Silent Skill"
     },
     "Charge Battery": {
@@ -892,7 +892,7 @@
         "Description": "Reduce the cost of cards in your hand to 1 this turn (combat). ",
         "Energy": "0",
         "Name": "Enlightenment",
-        "Rarity": "Rare",
+        "Rarity": "Uncommon",
         "Type": "Neutral Skill"
     },
     "Entrench": {
@@ -917,7 +917,7 @@
         "Type": "Silent Skill"
     },
     "Eternal Feather": {
-        "Description": "For every 5 cards in your deck, heal 2 HP whenever you enter a Rest Site. ",
+        "Description": "For every 5 cards in your deck, heal 3 HP whenever you enter a Rest Site. ",
         "Energy": "",
         "Name": "Eternal Feather",
         "Rarity": "Boss",
@@ -945,7 +945,7 @@
         "Type": "Ironclad Skill"
     },
     "Expertise": {
-        "Description": "Draw cards until you have 6 (8) in hand. ",
+        "Description": "Draw cards until you have 6 (7) in hand. ",
         "Energy": "1",
         "Name": "Expertise",
         "Rarity": "Uncommon",
@@ -1113,7 +1113,7 @@
         "Type": "Relic"
     },
     "Glacier": {
-        "Description": "Gain 9(12) Block. Channel 2 Frost. ",
+        "Description": "Gain 7(10) Block. Channel 2 Frost. ",
         "Energy": "2",
         "Name": "Glacier",
         "Rarity": "Uncommon",
@@ -1224,8 +1224,15 @@
         "Rarity": "Common",
         "Type": "Defect Skill"
     },
+    "Hovering Kite": {
+        "Description": "Gain 1 Energy and discard 2 cards at the start of each turn. ",
+        "Energy": "",
+        "Name": "Hovering Kite",
+        "Rarity": "Boss",
+        "Type": "Silent Relic"
+    },
     "Hyperbeam": {
-        "Description": "Deal 25(32) damage to ALL enemies. Lose 3 Focus. ",
+        "Description": "Deal 26(34) damage to ALL enemies. Lose 3 Focus. ",
         "Energy": "2",
         "Name": "Hyperbeam",
         "Rarity": "Rare",
@@ -1323,7 +1330,7 @@
         "Type": "Neutral Skill"
     },
     "Juggernaut": {
-        "Description": "Whenever you gain Block, deal 3(5) damage to a random enemy. ",
+        "Description": "Whenever you gain Block, deal 5(6) damage to a random enemy. ",
         "Energy": "2",
         "Name": "Juggernaut",
         "Rarity": "Rare",
@@ -1365,7 +1372,7 @@
         "Type": "Relic"
     },
     "Leg Sweep": {
-        "Description": "Apply 2 (3) Weak. Gain 12 (15) Block. ",
+        "Description": "Apply 2 (3) Weak. Gain 11 (14) Block. ",
         "Energy": "2",
         "Name": "Leg Sweep",
         "Rarity": "Uncommon",
@@ -1431,7 +1438,7 @@
         "Description": "Spend all Energy. Enemy loses X (+1) Strength. Apply X (+1) Weak. Exhaust. ",
         "Energy": "X",
         "Name": "Malaise",
-        "Rarity": "Uncommon",
+        "Rarity": "Rare",
         "Type": "Silent Skill"
     },
     "Mango": {
@@ -1645,7 +1652,7 @@
         "Type": "Relic"
     },
     "Offering": {
-        "Description": "Lose 4 HP. Gain 2 energy. Draw 3(5) cards. Exhaust. ",
+        "Description": "Lose 6 HP. Gain 2 energy. Draw 3(5) cards. Exhaust. ",
         "Energy": "0",
         "Name": "Offering",
         "Rarity": "Rare",
@@ -1799,7 +1806,7 @@
         "Type": "Silent Skill"
     },
     "Poisoned Stab": {
-        "Description": "Deal 5 (6) damage. Apply 3 (4) Poison. ",
+        "Description": "Deal 6 (8) damage. Apply 3 (4) Poison. ",
         "Energy": "1",
         "Name": "Poisoned Stab",
         "Rarity": "Common",
@@ -1897,7 +1904,7 @@
         "Type": "Defect Skill"
     },
     "Rampage": {
-        "Description": "Deal 8 damage. Every time this card is played, increase its damage by 4(8) for this combat. ",
+        "Description": "Deal 8 damage. Every time this card is played, increase its damage by 5(8) for this combat. ",
         "Energy": "1",
         "Name": "Rampage",
         "Rarity": "Uncommon",
@@ -1911,14 +1918,14 @@
         "Type": "Ironclad Attack"
     },
     "Reboot": {
-        "Description": "Shuffle all of your cards into your draw pile, then draw 5(7) cards. Exhaust. ",
+        "Description": "Shuffle all of your cards into your draw pile, then draw 4(6) cards. Exhaust. ",
         "Energy": "0",
         "Name": "Reboot",
         "Rarity": "Rare",
         "Type": "Defect Skill"
     },
     "Rebound": {
-        "Description": "Deal 8(11) damage. Place the next card you play this turn on top of your draw pile. ",
+        "Description": "Deal 9(12) damage. Place the next card you play this turn on top of your draw pile. ",
         "Energy": "1",
         "Name": "Rebound",
         "Rarity": "Common",
@@ -2014,6 +2021,13 @@
         "Name": "Rip and Tear",
         "Rarity": "Uncommon",
         "Type": "Defect Attack"
+    },
+    "Ritual Dagger": {
+        "Description": "Deal 15 damage. If this kills an enemy then permanently increase this card's damage by 3(5). ",
+        "Energy": "1",
+        "Name": "Ritual Dagger",
+        "Rarity": "Common",
+        "Type": "Neutral Attack"
     },
     "Runic Cube": {
         "Description": "Whenever you lose HP, draw 1 card. ",
@@ -2376,7 +2390,7 @@
         "Description": "Unplayable. If this card is discarded from your hand, gain 1 (2) Energy. ",
         "Energy": "",
         "Name": "Tactician",
-        "Rarity": "Rare",
+        "Rarity": "Uncommon",
         "Type": "Silent Skill"
     },
     "Tempest": {
@@ -2415,7 +2429,7 @@
         "Type": "Neutral Skill"
     },
     "Thread and Needle": {
-        "Description": "At the start of each combat, gain 5 Plated Armor. ",
+        "Description": "At the start of each combat, gain 4 Plated Armor. ",
         "Energy": "",
         "Name": "Thread and Needle",
         "Rarity": "Rare",
@@ -2450,7 +2464,7 @@
         "Type": "Relic"
     },
     "Tiny House": {
-        "Description": "Obtain 1 potion. Gain 30 Gold. Raise your Max HP by 5. Obtain 1 card. Upgrade 1 Random card. ",
+        "Description": "Obtain 1 potion. Gain 50 Gold. Raise your Max HP by 5. Obtain 1 card. Upgrade 1 Random card. ",
         "Energy": "",
         "Name": "Tiny House",
         "Rarity": "Boss",
@@ -2499,7 +2513,7 @@
         "Type": "Relic"
     },
     "Transmutation": {
-        "Description": "Add X random (Upgraded) colorless cards into your hand. Exhaust.",
+        "Description": "Add X random (Upgraded) colorless cards into your hand. They cost 0 this turn. Exhaust.",
         "Energy": "X",
         "Name": "Transmutation",
         "Rarity": "Rare",
@@ -2548,7 +2562,7 @@
         "Type": "Defect Skill"
     },
     "Unload": {
-        "Description": "Deal 12 (16) damage. Discard ALL non-Attack cards. ",
+        "Description": "Deal 14 (18) damage. Discard ALL non-Attack cards. ",
         "Energy": "1",
         "Name": "Unload",
         "Rarity": "Rare",
@@ -2646,7 +2660,7 @@
         "Type": "Status"
     },
     "Wraith Form": {
-        "Description": "Gain 3 (4) Intangible. At the end of your turn, lose 1 Dexterity.",
+        "Description": "Gain 2 (3) Intangible. At the end of your turn, lose 1 Dexterity.",
         "Energy": "3",
         "Name": "Wraith Form",
         "Rarity": "Rare",
